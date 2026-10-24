@@ -1,0 +1,7 @@
+{
+  "source_build_digest": "c6e268c7e9912a404776e9dbeb7173aa086ef50524b1563a3dd3ff67e3173805",
+  "source_assets": 13,
+  "academy_source_sha256": "b042a3c82296a8e9d6b4bcb488d9bbab7c5151adc382ba8780cebc419da342e3",
+  "tests": 30,
+  "status": "sanitized_standalone"
+}
