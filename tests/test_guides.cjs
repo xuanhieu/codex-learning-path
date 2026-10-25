@@ -80,9 +80,35 @@ test("legacy and replaced source docs are visibly flagged",()=>{
  assert.match(html,/d\.legacy/);
  assert.match(html,/Legacy:/);
 });
-test("no misleading live-checked claims are embedded",()=>{
- for(const doc of map.documents)assert.equal(doc.verifiedLive,false);
- assert.match(map.sourceIndex.quality,/NOT full-page mirror or live URL verification/);
+test("source health evidence matches the real 204-URL crawler snapshot",()=>{
+ assert.equal(map.documents.length,204);
+ assert.equal(map.sourceIndex.httpReachable,198);
+ assert.equal(map.sourceIndex.httpUnavailable,6);
+ assert.equal(map.sourceIndex.healthCheckedAt,"2026-10-25");
+ assert.equal(map.documents.filter(d=>d.verifiedLive).length,198);
+ assert.equal(map.documents.filter(d=>d.sourceHttp===404).length,6);
+});
+test("HTTP 200 reachability cannot claim full text proof or current features",()=>{
+ assert.match(map.sourceIndex.quality,/HTTP 200 is evidence of reachability only/);
+ const observed=JSON.parse(fs.readFileSync(path.join(ROOT,"data/source-health-20261025.json"),"utf8"));
+ const byid=new Map(observed.documents.map(d=>[d.id,d]));
+ for(const doc of map.documents){
+  const evidence=byid.get(doc.id);
+  assert.equal(doc.url,evidence.url,doc.id);
+  assert.equal(doc.sourceHttp,evidence.http);
+  assert.equal(doc.verifiedLive,evidence.status==="reachable");
+  assert.equal(doc.verifiedAt,evidence.checkedAt);
+ }
+});
+test("failed sources are excluded from curator reference cards",()=>{
+ const failed=new Set(map.documents.filter(d=>!d.verifiedLive).map(x=>x.id));
+ for(const guide of map.guides)for(const ref of guide.references)assert.ok(!failed.has(ref.id),guide.id+" "+ref.title);
+});
+test("source HTTP filter and headings are visible in learning guide",()=>{
+ const html=fs.readFileSync(path.join(ROOT,"guide-ui.js"),"utf8");
+ assert.match(html,/guide-status/);
+ assert.match(html,/d\.sourceHeadings/);
+ assert.match(html,/d\.sourceHttp===404/);
 });
 test("learning input is exactly 25+36 across 14 careers",()=>{
  assert.equal(course.lessons.length,61);assert.equal(course.careers.length,14);
@@ -123,6 +149,14 @@ test("source-index navigation cannot clobber learning path route",()=>{
  const s=fs.readFileSync(path.join(ROOT,"guide-ui.js"),"utf8");
  assert.match(s,/data-guide-scroll/);
  assert.doesNotMatch(s,/href="#guide-source-index"/);
+});
+test("two self-contained handbooks cover all 19 human explanations",()=>{
+ for(const lang of ["VI","EN"]){
+  const content=fs.readFileSync(path.join(ROOT,"HANDBOOK_"+lang+".md"),"utf8");
+  assert.equal((content.match(/^### \d+\./gm)||[]).length,19);
+  assert.ok(content.includes("204")&&content.includes("Codex Path"));
+  assert.ok(!content.includes("/Users/az/"));
+ }
 });
 test("no private applicant data in indexed public assets",()=>{
  for(const name of ["data/learning-map.json","guide-ui.js","guide.css"]){

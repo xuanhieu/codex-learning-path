@@ -12,6 +12,8 @@ CATALOG=ROOT.parent/"codex-academy/catalog.json"
 if not CATALOG.exists():CATALOG=ROOT/"data/academy-index-20261024.json"
 PATH=ROOT/"data/codex-path.json"
 OUTPUT=ROOT/"data/learning-map.json"
+HEALTH=ROOT/"data/source-health-20261025.json"
+
 # Each guide has its own original explanation, analogy, worked example, hands-on steps,
 # danger/mistake and inspectable outcome in Vietnamese and English.
 GUIDES=[
@@ -338,6 +340,14 @@ def build():
     raw=json.loads(CATALOG.read_text())
     docs=raw["sources"]
     curriculum=json.loads(PATH.read_text())
+    health=json.loads(HEALTH.read_text()) if HEALTH.exists() else None
+    if health:
+        assert health["schema"]=="public-official-source-health-v1"
+        assert health["total"]==len(docs)
+        health_byid={d["id"]:d for d in health["documents"]}
+        assert len(health_byid)==len(docs)
+    else:
+        health_byid={}
     lessonIds={l["id"] for l in curriculum["lessons"]}
     assert len(docs)>=200 and len(curriculum["lessons"])>=61
     records=[]
@@ -345,10 +355,15 @@ def build():
         url=source["url"]
         assert url.startswith("https://"),url
         guide=assign(source)
+        check=health_byid.get(source["id"],{})
+        if check:assert check["url"]==url,"Source health lookup mismatch"
+        ok=check.get("status")=="reachable" and check.get("http")==200 and len(check.get("sha256",""))==64
         records.append(dict(id=source["id"],title=source["title"],url=url,product=source["product"],
           category=source.get("categories",[])[:3],level=source["level"],learningLevel=educational_level(source),
           guide=guide,assignmentBasis="topic_within_learning_level",
-          indexSnapshot="2026-10-24",verifiedLive=False,
+          indexSnapshot="2026-10-24",verifiedLive=ok,
+          sourceHttp=int(check.get("http",0)),verifiedAt=check.get("checkedAt",""),
+          sourceHeadings=check.get("headings",[])[:2] if ok else [],
           legacy=bool(source.get("legacy")) or bool(re.search(r"\blegacy\b|removal|deprecated",source["title"],re.I))))
     assert all(GUIDE_BY_ID[d["guide"]][1]==d["learningLevel"] for d in records)
     grouped={gid:[d for d in records if d["guide"]==gid] for gid in GUIDE_BY_ID}
@@ -361,12 +376,12 @@ def build():
         reference=[]
         for title in titles:
             match=next((d for d in records if d["title"].casefold()==title.casefold()),None)
-            if match and match["id"] not in [r["id"] for r in reference]:
+            if match and (not health or match["verifiedLive"]) and match["id"] not in [r["id"] for r in reference]:
                 reference.append(match)
         # A source selected by a low-confidence keyword must not displace a
         # manually curated and demonstrably relevant teaching reference.
         if not reference:
-            for record in sorted(grouped[gid],key=lambda d:(d["product"]!="Codex",len(d["title"]))):
+            for record in sorted(grouped[gid],key=lambda d:(not d["verifiedLive"],d["product"]!="Codex",len(d["title"]))):
                 if len(reference)>=4:break
                 if record["id"] not in [r["id"] for r in reference]:
                     reference.append(record)
@@ -383,7 +398,10 @@ def build():
        "codex":sum(d["product"]=="Codex" for d in records),
        "chatgpt":sum(d["product"]=="ChatGPT" for d in records),
        "platform":sum(d["product"]=="Platform" for d in records),
-       "quality":"Index of official URLs, NOT full-page mirror or live URL verification.",
+       "quality":"All 204 indexed links were checked via HTTP on 2026-10-25; HTTP 200 is evidence of reachability only, not of current semantic correctness. No full text mirrored.",
+       "healthCheckedAt":health.get("checkedAt") if health else None,
+       "httpReachable":sum(d["verifiedLive"] for d in records),
+       "httpUnavailable":sum(bool(d["sourceHttp"]) and not d["verifiedLive"] for d in records),
        "catalog":"../codex-academy/catalog.json"},
        "guides":modules,"documents":records,
        "editorial":{"purpose":"Original plain-language explanations, analogies, practical exercises and pitfalls.",

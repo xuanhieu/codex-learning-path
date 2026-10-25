@@ -6,7 +6,10 @@
     "codex": 45,
     "chatgpt": 158,
     "platform": 1,
-    "quality": "Index of official URLs, NOT full-page mirror or live URL verification.",
+    "quality": "All 204 indexed links were checked via HTTP on 2026-10-25; HTTP 200 is evidence of reachability only, not of current semantic correctness. No full text mirrored.",
+    "healthCheckedAt": "2026-10-25",
+    "httpReachable": 198,
+    "httpUnavailable": 6,
     "catalog": "../codex-academy/catalog.json"
   },
   "guides": [
@@ -131,11 +134,6 @@
           "id": "src-81a2fac530c8",
           "url": "https://learn.chatgpt.com/docs/custom-prompts.md",
           "title": "Custom Prompts"
-        },
-        {
-          "id": "src-67a7ce1fea36",
-          "url": "https://learn.chatgpt.com/guides/best-practices.md",
-          "title": "Best practices"
         }
       ]
     },
@@ -208,11 +206,6 @@
         "challenge": "Classify three fictional claims as sourced / unverified / opinion."
       },
       "references": [
-        {
-          "id": "src-67a7ce1fea36",
-          "url": "https://learn.chatgpt.com/guides/best-practices.md",
-          "title": "Best practices"
-        },
         {
           "id": "src-eb9462608041",
           "url": "https://learn.chatgpt.com/docs/web-search.md",
@@ -351,11 +344,6 @@
           "id": "src-ba7354e17482",
           "url": "https://learn.chatgpt.com/docs/third-party/github.md",
           "title": "Review GitHub pull requests with Codex"
-        },
-        {
-          "id": "src-67a7ce1fea36",
-          "url": "https://learn.chatgpt.com/guides/best-practices.md",
-          "title": "Best practices"
         }
       ]
     },
@@ -847,7 +835,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex — full documentation",
+        "Administration"
+      ],
       "legacy": false
     },
     {
@@ -863,7 +857,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Find By Topic",
+        "Surfaces and experiences"
+      ],
       "legacy": false
     },
     {
@@ -880,6 +880,9 @@
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
       "verifiedLive": false,
+      "sourceHttp": 404,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [],
       "legacy": false
     },
     {
@@ -895,7 +898,12 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Administration"
+      ],
       "legacy": false
     },
     {
@@ -911,7 +919,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Agent approvals & security",
+        "Migrate from the retired `untrusted` approval policy"
+      ],
       "legacy": false
     },
     {
@@ -927,7 +941,13 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Custom instructions with AGENTS.md",
+        "How Codex discovers guidance"
+      ],
       "legacy": false
     },
     {
@@ -943,7 +963,13 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Rules",
+        "Create a rules file"
+      ],
       "legacy": false
     },
     {
@@ -959,7 +985,13 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Speed",
+        "Fast mode"
+      ],
       "legacy": false
     },
     {
@@ -975,7 +1007,13 @@
       "guide": "multi-agents",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Subagents",
+        "Availability"
+      ],
       "legacy": false
     },
     {
@@ -991,7 +1029,13 @@
       "guide": "tool-choice",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Use ChatGPT Work and Codex with Amazon Bedrock",
+        "How it works"
+      ],
       "legacy": false
     },
     {
@@ -1007,7 +1051,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Annotations Extensibility",
+        "Choose what to customize"
+      ],
       "legacy": false
     },
     {
@@ -1023,7 +1073,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT desktop app",
+        "ChatGPT desktop app"
+      ],
       "legacy": false
     },
     {
@@ -1039,7 +1095,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Commands",
+        "Keyboard shortcuts"
+      ],
       "legacy": false
     },
     {
@@ -1056,7 +1118,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT desktop app for Windows",
+        "Download the ChatGPT desktop app"
+      ],
       "legacy": false
     },
     {
@@ -1072,7 +1140,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Settings",
+        "General"
+      ],
       "legacy": false
     },
     {
@@ -1088,7 +1162,13 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex App Server",
+        "Connect the CLI terminal UI"
+      ],
       "legacy": false
     },
     {
@@ -1104,7 +1184,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Appshots",
+        "What appshots capture"
+      ],
       "legacy": false
     },
     {
@@ -1120,7 +1206,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Work with files",
+        "Create files for review"
+      ],
       "legacy": false
     },
     {
@@ -1136,7 +1228,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Authentication",
+        "OpenAI authentication"
+      ],
       "legacy": false
     },
     {
@@ -1152,7 +1250,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Scheduled tasks",
+        "Manage scheduled tasks on the web"
+      ],
       "legacy": false
     },
     {
@@ -1168,7 +1272,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Browser",
+        "Arrange tabs and chat"
+      ],
       "legacy": false
     },
     {
@@ -1184,7 +1294,13 @@
       "guide": "reusable-skills",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Build plugins",
+        "What is a plugin?"
+      ],
       "legacy": false
     },
     {
@@ -1200,7 +1316,13 @@
       "guide": "reusable-skills",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Build skills",
+        "How ChatGPT and Codex use skills"
+      ],
       "legacy": false
     },
     {
@@ -1216,7 +1338,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Browser extension",
+        "Use side chat in your browser"
+      ],
       "legacy": false
     },
     {
@@ -1232,7 +1360,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex CLI",
+        "Inspect, edit, and run code from your terminal"
+      ],
       "legacy": false
     },
     {
@@ -1248,7 +1382,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Developer commands",
+        "How to read this reference"
+      ],
       "legacy": false
     },
     {
@@ -1264,7 +1404,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "CLI customization",
+        "Syntax highlighting and themes"
+      ],
       "legacy": false
     },
     {
@@ -1280,7 +1426,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Cloud",
+        "Run coding tasks in the cloud"
+      ],
       "legacy": false
     },
     {
@@ -1296,7 +1448,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Cloud (Legacy): internet access",
+        "Risks of agent internet access"
+      ],
       "legacy": true
     },
     {
@@ -1312,7 +1470,13 @@
       "guide": "review-tests",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Code review",
+        "Pull request reviews"
+      ],
       "legacy": false
     },
     {
@@ -1328,7 +1492,13 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex SDK",
+        "TypeScript library"
+      ],
       "legacy": false
     },
     {
@@ -1344,7 +1514,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Search developer resources",
+        "Suggested"
+      ],
       "legacy": false
     },
     {
@@ -1360,7 +1536,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Computer Use",
+        "Set up Computer Use"
+      ],
       "legacy": false
     },
     {
@@ -1376,7 +1558,13 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Advanced Configuration",
+        "Applying these examples to Local computer access with Work Cloud"
+      ],
       "legacy": false
     },
     {
@@ -1392,7 +1580,13 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Config basics",
+        "Codex configuration file"
+      ],
       "legacy": false
     },
     {
@@ -1408,7 +1602,13 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Configuration Reference",
+        "Settings for Local computer access with Work Cloud"
+      ],
       "legacy": false
     },
     {
@@ -1424,7 +1624,13 @@
       "guide": "safe-connections",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Environment variables",
+        "Core locations"
+      ],
       "legacy": false
     },
     {
@@ -1440,7 +1646,12 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Sample Configuration"
+      ],
       "legacy": false
     },
     {
@@ -1456,7 +1667,12 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Configuration"
+      ],
       "legacy": false
     },
     {
@@ -1472,7 +1688,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Custom Prompts",
+        "Add metadata and arguments"
+      ],
       "legacy": true
     },
     {
@@ -1488,7 +1710,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Computer History",
+        "How Computer History helps"
+      ],
       "legacy": false
     },
     {
@@ -1504,7 +1732,13 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Customization",
+        "AGENTS Guidance"
+      ],
       "legacy": false
     },
     {
@@ -1520,7 +1754,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Memories",
+        "How local Codex memories work"
+      ],
       "legacy": false
     },
     {
@@ -1536,7 +1776,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Models and Trusted Access",
+        "Choose the right model"
+      ],
       "legacy": false
     },
     {
@@ -1552,7 +1798,13 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Recommended configuration",
+        "Isolate the environment"
+      ],
       "legacy": false
     },
     {
@@ -1568,7 +1820,12 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Developers"
+      ],
       "legacy": false
     },
     {
@@ -1584,7 +1841,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Meet dots",
+        "Make it your own"
+      ],
       "legacy": false
     },
     {
@@ -1600,7 +1863,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Connect computers and apps to your dot",
+        "Use the cloud computer"
+      ],
       "legacy": false
     },
     {
@@ -1616,7 +1885,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Control your dot",
+        "Review work"
+      ],
       "legacy": false
     },
     {
@@ -1632,7 +1907,13 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Get started with your dot",
+        "Create your dot"
+      ],
       "legacy": false
     },
     {
@@ -1648,7 +1929,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Message your dot",
+        "ChatGPT and voice"
+      ],
       "legacy": false
     },
     {
@@ -1664,7 +1951,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Tasks and memory",
+        "Assigned work"
+      ],
       "legacy": false
     },
     {
@@ -1680,7 +1973,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Access tokens",
+        "How access tokens work"
+      ],
       "legacy": false
     },
     {
@@ -1696,7 +1995,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Admin rollout guide",
+        "Step 1: Assign owners and choose a rollout"
+      ],
       "legacy": false
     },
     {
@@ -1712,7 +2017,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Agent Security",
+        "Where settings apply"
+      ],
       "legacy": false
     },
     {
@@ -1728,7 +2039,13 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Analytics API",
+        "When to use the Analytics API"
+      ],
       "legacy": false
     },
     {
@@ -1744,7 +2061,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Bedrock through LiteLLM",
+        "Connect to an existing gateway"
+      ],
       "legacy": false
     },
     {
@@ -1760,7 +2083,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Best practices for ChatGPT Edu workspace configuration in higher education",
+        "Choose the recommended roles"
+      ],
       "legacy": false
     },
     {
@@ -1776,7 +2105,13 @@
       "guide": "evals",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT usage limits and spend controls",
+        "Know when these controls apply"
+      ],
       "legacy": false
     },
     {
@@ -1792,7 +2127,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT Work admin FAQ",
+        "Work across devices"
+      ],
       "legacy": false
     },
     {
@@ -1808,7 +2149,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT Work cloud security",
+        "Security at a glance"
+      ],
       "legacy": false
     },
     {
@@ -1824,7 +2171,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT Work local security",
+        "Security at a glance"
+      ],
       "legacy": false
     },
     {
@@ -1840,7 +2193,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT Work Overview",
+        "Execution isolation, files, and device access"
+      ],
       "legacy": false
     },
     {
@@ -1856,7 +2215,13 @@
       "guide": "evals",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT Work: usage and cost",
+        "Usage and cost at a glance"
+      ],
       "legacy": false
     },
     {
@@ -1872,7 +2237,13 @@
       "guide": "evals",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex security cookbook",
+        "Choose your starting point"
+      ],
       "legacy": false
     },
     {
@@ -1888,7 +2259,13 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Compliance API and audit events",
+        "When to use the Compliance API"
+      ],
       "legacy": false
     },
     {
@@ -1904,7 +2281,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Deploy the Windows app and Codex CLI",
+        "Deploy the Windows app"
+      ],
       "legacy": false
     },
     {
@@ -1920,7 +2303,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Dynamic groups",
+        "Before you begin"
+      ],
       "legacy": false
     },
     {
@@ -1936,7 +2325,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Gateway compatibility requirements",
+        "Requests and endpoints"
+      ],
       "legacy": false
     },
     {
@@ -1952,7 +2347,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Governance",
+        "Open the administration surfaces"
+      ],
       "legacy": false
     },
     {
@@ -1968,7 +2369,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "GPTs and Sharing",
+        "Sharing"
+      ],
       "legacy": false
     },
     {
@@ -1984,7 +2391,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Groups and provisioning",
+        "Compare membership sources"
+      ],
       "legacy": false
     },
     {
@@ -2000,7 +2413,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Local computer access for Work Cloud and dots",
+        "Benefits of local computer access"
+      ],
       "legacy": false
     },
     {
@@ -2016,7 +2435,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Manage app updates",
+        "Before you begin"
+      ],
       "legacy": false
     },
     {
@@ -2032,7 +2457,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Manage ChatGPT Space, pages, and slides",
+        "What is ChatGPT Space?"
+      ],
       "legacy": false
     },
     {
@@ -2048,7 +2479,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Manage dots permissions and capabilities",
+        "Find what you need"
+      ],
       "legacy": false
     },
     {
@@ -2064,7 +2501,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Managed configuration",
+        "Configure a policy in Agent security"
+      ],
       "legacy": false
     },
     {
@@ -2080,7 +2523,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Plugin controls",
+        "Understand the capability chain"
+      ],
       "legacy": false
     },
     {
@@ -2096,7 +2545,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Plugin management",
+        "Before you begin"
+      ],
       "legacy": false
     },
     {
@@ -2112,7 +2567,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Prisma AIRS",
+        "Before you begin"
+      ],
       "legacy": false
     },
     {
@@ -2128,7 +2589,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Roles and workspace permissions",
+        "Understand the control boundaries"
+      ],
       "legacy": false
     },
     {
@@ -2144,7 +2611,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Roll out a gateway",
+        "Prerequisites"
+      ],
       "legacy": false
     },
     {
@@ -2160,7 +2633,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Service accounts",
+        "Create and set up a service account"
+      ],
       "legacy": false
     },
     {
@@ -2176,7 +2655,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Set up and manage @ChatGPT in Slack and Microsoft Teams",
+        "How access works"
+      ],
       "legacy": false
     },
     {
@@ -2192,7 +2677,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Set up and manage teams and Team Tasks",
+        "How teams and Team Tasks work"
+      ],
       "legacy": false
     },
     {
@@ -2208,7 +2699,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Sign in with ChatGPT through a gateway",
+        "Why you would want this"
+      ],
       "legacy": false
     },
     {
@@ -2224,7 +2721,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Sites administration",
+        "Before you begin"
+      ],
       "legacy": false
     },
     {
@@ -2240,7 +2743,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Skill controls",
+        "Skill distribution and administration"
+      ],
       "legacy": false
     },
     {
@@ -2256,7 +2765,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Understand ChatGPT education plans",
+        "Compare plans"
+      ],
       "legacy": false
     },
     {
@@ -2272,7 +2787,13 @@
       "guide": "evals",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Usage Insights for ChatGPT Work in Codex",
+        "Analytics views"
+      ],
       "legacy": false
     },
     {
@@ -2288,7 +2809,13 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Use API/provider credentials through a gateway",
+        "Check for an existing configuration"
+      ],
       "legacy": false
     },
     {
@@ -2304,7 +2831,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "User lifecycle management",
+        "Verify prerequisites and assign owners"
+      ],
       "legacy": false
     },
     {
@@ -2320,7 +2853,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Using the Admin plugin in ChatGPT Work",
+        "1. Understand what the Admin plugin is for"
+      ],
       "legacy": false
     },
     {
@@ -2336,7 +2875,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Workspace analytics",
+        "Choose a reporting surface"
+      ],
       "legacy": false
     },
     {
@@ -2352,7 +2897,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Workspace connections",
+        "How it works"
+      ],
       "legacy": false
     },
     {
@@ -2368,7 +2919,13 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Workspace model availability",
+        "Identify the model boundary"
+      ],
       "legacy": false
     },
     {
@@ -2384,7 +2941,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Cloud environments",
+        "Start a task in Codex Cloud"
+      ],
       "legacy": false
     },
     {
@@ -2400,7 +2963,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Cloud (Legacy)",
+        "How Codex cloud chats run"
+      ],
       "legacy": true
     },
     {
@@ -2416,7 +2985,12 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex environments"
+      ],
       "legacy": false
     },
     {
@@ -2432,7 +3006,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Local environments",
+        "Setup scripts"
+      ],
       "legacy": false
     },
     {
@@ -2448,7 +3028,13 @@
       "guide": "git-and-diffs",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Worktrees",
+        "What's a worktree"
+      ],
       "legacy": false
     },
     {
@@ -2464,7 +3050,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Model Context Protocol",
+        "Build an MCP plugin with Plugin Creator and Sites"
+      ],
       "legacy": false
     },
     {
@@ -2480,7 +3072,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Record & Replay",
+        "Before you start"
+      ],
       "legacy": false
     },
     {
@@ -2496,7 +3094,12 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Feature Maturity"
+      ],
       "legacy": false
     },
     {
@@ -2512,7 +3115,12 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Features"
+      ],
       "legacy": false
     },
     {
@@ -2528,7 +3136,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT Voice",
+        "Start talking"
+      ],
       "legacy": false
     },
     {
@@ -2544,7 +3158,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Micro",
+        "Set up Codex Micro"
+      ],
       "legacy": false
     },
     {
@@ -2560,7 +3180,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Composer Predictions",
+        "Tab to accept"
+      ],
       "legacy": false
     },
     {
@@ -2576,7 +3202,13 @@
       "guide": "tool-choice",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Get started with ChatGPT Work",
+        "Introducing ChatGPT Work"
+      ],
       "legacy": false
     },
     {
@@ -2592,7 +3224,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex GitHub Action",
+        "Prerequisites"
+      ],
       "legacy": false
     },
     {
@@ -2608,7 +3246,12 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Glossary"
+      ],
       "legacy": false
     },
     {
@@ -2625,6 +3268,9 @@
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
       "verifiedLive": false,
+      "sourceHttp": 404,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [],
       "legacy": false
     },
     {
@@ -2640,7 +3286,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Hooks",
+        "Where Codex looks for hooks"
+      ],
       "legacy": false
     },
     {
@@ -2656,7 +3308,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex IDE extension",
+        "Build with the context already in your editor"
+      ],
       "legacy": false
     },
     {
@@ -2672,7 +3330,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Developer commands",
+        "Assign a key binding"
+      ],
       "legacy": false
     },
     {
@@ -2688,7 +3352,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Developer settings",
+        "Open Codex settings"
+      ],
       "legacy": false
     },
     {
@@ -2704,7 +3374,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Image generation",
+        "Review and edit generated images"
+      ],
       "legacy": false
     },
     {
@@ -2720,7 +3396,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Image inputs",
+        "Write the prompt around the image"
+      ],
       "legacy": false
     },
     {
@@ -2736,7 +3418,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Import from another agent",
+        "Start an import"
+      ],
       "legacy": false
     },
     {
@@ -2752,7 +3440,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Integrated terminal",
+        "Run and validate your project"
+      ],
       "legacy": false
     },
     {
@@ -2769,6 +3463,9 @@
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
       "verifiedLive": false,
+      "sourceHttp": 404,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [],
       "legacy": false
     },
     {
@@ -2784,7 +3481,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT desktop app for Linux",
+        "Supported distributions and architectures"
+      ],
       "legacy": false
     },
     {
@@ -2800,7 +3503,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Long-running work",
+        "Start a goal"
+      ],
       "legacy": false
     },
     {
@@ -2816,7 +3525,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex MCP server removal",
+        "Use the Codex app server"
+      ],
       "legacy": true
     },
     {
@@ -2832,7 +3547,13 @@
       "guide": "reusable-skills",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Moving your custom GPT workflows to plugins",
+        "Understand the change"
+      ],
       "legacy": false
     },
     {
@@ -2848,7 +3569,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex on mobile",
+        "Start, guide, and review tasks from your phone"
+      ],
       "legacy": false
     },
     {
@@ -2864,7 +3591,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Implementing model catalogs for gateways and clouds",
+        "Implement the catalog endpoint"
+      ],
       "legacy": false
     },
     {
@@ -2880,7 +3613,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Model selection",
+        "Meet the models"
+      ],
       "legacy": false
     },
     {
@@ -2896,7 +3635,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Models",
+        "GPT-5.5 retirement"
+      ],
       "legacy": false
     },
     {
@@ -2912,7 +3657,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Non-interactive mode",
+        "When to use `codex exec`"
+      ],
       "legacy": false
     },
     {
@@ -2928,7 +3679,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Notifications",
+        "Configure desktop notifications"
+      ],
       "legacy": false
     },
     {
@@ -2944,7 +3701,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Open Source",
+        "Open-source components"
+      ],
       "legacy": false
     },
     {
@@ -2961,6 +3724,9 @@
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
       "verifiedLive": false,
+      "sourceHttp": 404,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [],
       "legacy": false
     },
     {
@@ -2976,7 +3742,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Permissions",
+        "Permission modes"
+      ],
       "legacy": false
     },
     {
@@ -2992,7 +3764,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Permissions",
+        "Define and select a profile"
+      ],
       "legacy": false
     },
     {
@@ -3008,7 +3786,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Personalize ChatGPT",
+        "Choose a personality on the web"
+      ],
       "legacy": false
     },
     {
@@ -3024,7 +3808,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Pets",
+        "Use a floating pet"
+      ],
       "legacy": false
     },
     {
@@ -3040,7 +3830,13 @@
       "guide": "reusable-skills",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Plugins",
+        "Overview"
+      ],
       "legacy": false
     },
     {
@@ -3056,7 +3852,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Pricing",
+        "Invite friends and coworkers"
+      ],
       "legacy": false
     },
     {
@@ -3072,7 +3874,13 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Projects and chats",
+        "Choose a project or start without one"
+      ],
       "legacy": false
     },
     {
@@ -3088,7 +3896,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Prompting",
+        "Prompting overview"
+      ],
       "legacy": false
     },
     {
@@ -3104,7 +3918,13 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Quickstart",
+        "Where to use ChatGPT"
+      ],
       "legacy": false
     },
     {
@@ -3120,7 +3940,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Troubleshooting",
+        "Frequently Asked Questions"
+      ],
       "legacy": false
     },
     {
@@ -3136,7 +3962,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Remote connections",
+        "Local computer access with Work Cloud and Remote connections"
+      ],
       "legacy": false
     },
     {
@@ -3153,6 +3985,9 @@
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
       "verifiedLive": false,
+      "sourceHttp": 404,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [],
       "legacy": false
     },
     {
@@ -3168,7 +4003,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Sandbox",
+        "What the sandbox does"
+      ],
       "legacy": false
     },
     {
@@ -3184,7 +4025,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Auto-review",
+        "Select automatic review"
+      ],
       "legacy": false
     },
     {
@@ -3200,7 +4047,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Security",
+        "Choose where to start"
+      ],
       "legacy": false
     },
     {
@@ -3216,7 +4069,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Security CI/CD overview",
+        "Prepare the workflow"
+      ],
       "legacy": false
     },
     {
@@ -3232,7 +4091,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Security CLI FAQ",
+        "Repository scans"
+      ],
       "legacy": false
     },
     {
@@ -3248,7 +4113,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Security CLI quickstart",
+        "Check the prerequisites"
+      ],
       "legacy": false
     },
     {
@@ -3264,7 +4135,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Security CLI reference",
+        "Command overview"
+      ],
       "legacy": false
     },
     {
@@ -3280,7 +4157,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Security Cloud FAQ",
+        "Billing"
+      ],
       "legacy": false
     },
     {
@@ -3296,7 +4179,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Security Cloud setup",
+        "Before you start"
+      ],
       "legacy": false
     },
     {
@@ -3312,7 +4201,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Security plugin changelog",
+        "0.1.30 (September 24, 2026)"
+      ],
       "legacy": false
     },
     {
@@ -3328,7 +4223,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Security plugin quickstart",
+        "Install the plugin"
+      ],
       "legacy": false
     },
     {
@@ -3344,7 +4245,13 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Codex Security TypeScript SDK",
+        "Set up the SDK"
+      ],
       "legacy": false
     },
     {
@@ -3360,7 +4267,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Export and track security findings",
+        "Export a portable artifact"
+      ],
       "legacy": false
     },
     {
@@ -3376,7 +4289,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Fix and verify security findings",
+        "Fix a finding in the UI"
+      ],
       "legacy": false
     },
     {
@@ -3392,7 +4311,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Improve the Cloud threat model",
+        "What a threat model is"
+      ],
       "legacy": false
     },
     {
@@ -3408,7 +4333,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Propose security hardening",
+        "Prepare the evidence"
+      ],
       "legacy": false
     },
     {
@@ -3424,7 +4355,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Review code changes for security",
+        "Run a manual review"
+      ],
       "legacy": false
     },
     {
@@ -3440,7 +4377,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Run a Codex Security scan",
+        "Choose the scan area"
+      ],
       "legacy": false
     },
     {
@@ -3456,7 +4399,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Run a deep security scan",
+        "Choose between standard and deep scans"
+      ],
       "legacy": false
     },
     {
@@ -3472,7 +4421,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Run bulk security scans",
+        "Choose a repository source"
+      ],
       "legacy": false
     },
     {
@@ -3488,7 +4443,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Run Codex Security in GitHub Actions",
+        "Prepare the workflow"
+      ],
       "legacy": false
     },
     {
@@ -3504,7 +4465,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Run Codex Security in GitLab CI/CD",
+        "Before you begin"
+      ],
       "legacy": false
     },
     {
@@ -3520,7 +4487,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Security Review",
+        "Before you start"
+      ],
       "legacy": false
     },
     {
@@ -3536,7 +4509,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Triage a backlog",
+        "Choose the findings to triage"
+      ],
       "legacy": false
     },
     {
@@ -3552,7 +4531,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Use the Codex Security workbench",
+        "Start a scan"
+      ],
       "legacy": false
     },
     {
@@ -3568,7 +4553,13 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Write vulnerability reports",
+        "Prepare the evidence"
+      ],
       "legacy": false
     },
     {
@@ -3584,7 +4575,12 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Security"
+      ],
       "legacy": false
     },
     {
@@ -3600,7 +4596,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Sign in with ChatGPT",
+        "Partners"
+      ],
       "legacy": false
     },
     {
@@ -3616,7 +4618,13 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Sites",
+        "Explore ways to use sites"
+      ],
       "legacy": false
     },
     {
@@ -3632,7 +4640,13 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Create a site",
+        "Get started with sites"
+      ],
       "legacy": false
     },
     {
@@ -3648,7 +4662,13 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Data and connections",
+        "Choose storage and sign-in features"
+      ],
       "legacy": false
     },
     {
@@ -3664,7 +4684,13 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Manage a site",
+        "Review site analytics"
+      ],
       "legacy": false
     },
     {
@@ -3680,7 +4706,13 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Publish and share",
+        "Review before you share"
+      ],
       "legacy": false
     },
     {
@@ -3696,7 +4728,13 @@
       "guide": "reusable-skills",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Skills & Plugins",
+        "Use skills for repeatable work"
+      ],
       "legacy": false
     },
     {
@@ -3712,7 +4750,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT Space",
+        "Workspaces and spaces"
+      ],
       "legacy": false
     },
     {
@@ -3728,7 +4772,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Collaborate in Space",
+        "Choose an access level"
+      ],
       "legacy": false
     },
     {
@@ -3744,7 +4794,13 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Get started with ChatGPT Space",
+        "Open Space"
+      ],
       "legacy": false
     },
     {
@@ -3760,7 +4816,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Work with agents in Space",
+        "Choose how to ask for help"
+      ],
       "legacy": false
     },
     {
@@ -3776,7 +4838,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Work with pages",
+        "Create a page"
+      ],
       "legacy": false
     },
     {
@@ -3792,7 +4860,13 @@
       "guide": "review-tests",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Review GitHub pull requests with Codex",
+        "Before you start"
+      ],
       "legacy": false
     },
     {
@@ -3808,7 +4882,13 @@
       "guide": "review-tests",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Review GitLab merge requests with Codex",
+        "Before you start"
+      ],
       "legacy": false
     },
     {
@@ -3824,7 +4904,13 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Use ChatGPT in Slack",
+        "Set up the Slack app"
+      ],
       "legacy": false
     },
     {
@@ -3840,7 +4926,13 @@
       "guide": "git-and-diffs",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Use Codex in Linear",
+        "Set up the Linear integration"
+      ],
       "legacy": false
     },
     {
@@ -3856,7 +4948,13 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Use ChatGPT",
+        "Go from idea to useful result"
+      ],
       "legacy": false
     },
     {
@@ -3873,6 +4971,9 @@
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
       "verifiedLive": false,
+      "sourceHttp": 404,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [],
       "legacy": false
     },
     {
@@ -3888,7 +4989,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Visualizations",
+        "Check availability"
+      ],
       "legacy": false
     },
     {
@@ -3904,7 +5011,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "ChatGPT on the web",
+        "Research, analyze, and create in your browser"
+      ],
       "legacy": false
     },
     {
@@ -3920,7 +5033,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Web search",
+        "Research a topic in Work"
+      ],
       "legacy": false
     },
     {
@@ -3936,7 +5055,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Site tools",
+        "WebMCP vs. MCP"
+      ],
       "legacy": false
     },
     {
@@ -3952,7 +5077,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "What's new",
+        "October 12–16, 2026"
+      ],
       "legacy": false
     },
     {
@@ -3968,7 +5099,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Create your dot in the ChatGPT mobile app",
+        "Bring your dot into your Codex work"
+      ],
       "legacy": false
     },
     {
@@ -3984,7 +5121,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "DevDay 2026",
+        "ChatGPT"
+      ],
       "legacy": false
     },
     {
@@ -4000,7 +5143,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "October 5–9, 2026",
+        "[Create your dot in the ChatGPT mobile app](https://learn.chatgpt.com/docs/whats-new/dots-october-9-2026)"
+      ],
       "legacy": false
     },
     {
@@ -4016,7 +5165,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "September 28–October 2, 2026",
+        "Choose GPT-6.1 Sol for complex work"
+      ],
       "legacy": false
     },
     {
@@ -4032,7 +5187,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Windows sandbox",
+        "Configure the Windows sandbox"
+      ],
       "legacy": false
     },
     {
@@ -4048,7 +5209,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "WSL",
+        "Launch VS Code from inside WSL"
+      ],
       "legacy": false
     },
     {
@@ -4064,7 +5231,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Search the docs",
+        "Suggested"
+      ],
       "legacy": false
     },
     {
@@ -4080,7 +5253,13 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Search developer resources",
+        "Suggested"
+      ],
       "legacy": false
     },
     {
@@ -4096,7 +5275,13 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false,
+      "verifiedLive": true,
+      "sourceHttp": 200,
+      "verifiedAt": "2026-10-25",
+      "sourceHeadings": [
+        "Search developer resources",
+        "Suggested"
+      ],
       "legacy": false
     }
   ],

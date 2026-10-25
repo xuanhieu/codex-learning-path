@@ -8,7 +8,7 @@ const TIERS=["Zero","Beginner","Intermediate","Advanced","Pro"];
 const LEVELS={Zero:{vi:"Chưa biết gì",en:"Starting from zero"},Beginner:{vi:"Mới sử dụng",en:"Beginner"},Intermediate:{vi:"Đã biết cơ bản",en:"Intermediate"},Advanced:{vi:"Làm việc chuyên sâu",en:"Advanced"},Pro:{vi:"Vận hành chuyên nghiệp",en:"Professional"}};
 const COPY={
  vi:{title:"Thư viện hướng dẫn — từ dễ hiểu đến thực chiến",sub:"19 chủ đề được viết lại bằng ngôn ngữ đời thường; tài liệu gốc nằm bên cạnh để đối chiếu. Đọc ví dụ trước, thử bài thực hành sau.",
-  sourceTitle:"Chỉ mục tài liệu chính thức",sourceNote:"204 đường dẫn trong bản lập chỉ mục ngày 24/10/2026; chưa xác minh rằng từng URL còn hoạt động hoặc nội dung vẫn như cũ. Đây không phải bản sao toàn văn.",
+  handbook:"Đọc giáo trình Markdown",sourceTitle:"Chỉ mục tài liệu chính thức",sourceNote:"Đã yêu cầu kiểm tra 204 URL ngày 25/10/2026: 198 HTTP 200, 6 HTTP 404. HTTP 200 không chứng minh nội dung còn đúng. Không sao chép toàn văn tài liệu.",
   lesson:"Bài thực hành liên quan",source:"Xem tài liệu gốc",easy:"Diễn giải ngắn gọn",analogy:"Hiểu qua ví dụ đời thường",example:"Ví dụ cụ thể",
   risk:"Dễ mắc lỗi gì?",try:"Thử trong 5–15 phút",topic:"Chủ đề",level:"Cấp độ",openLesson:"Mở bài",docs:"Tài liệu tham chiếu",
   docsTitle:"Toàn bộ danh mục nguồn đã lập chỉ mục",search:"Tìm chủ đề hoặc tài liệu…",all:"Tất cả",clear:"Xóa lọc",show:"Xem thêm tài liệu",
@@ -18,9 +18,9 @@ const COPY={
   beginner:"Lần đầu đến đây? Bắt đầu từ bài dễ nhất",start:"Bắt đầu 3 phút",roadmap:"Xem lộ trình riêng",
   legacy:"Legacy: kiểm tra phiên bản mới",links:"Mục nguồn",guideCount:"Bản hướng dẫn",sourceCount:"URL được phân loại",
   tierHint:"Cấp độ chỉ giúp chọn bài, không đánh giá năng lực hay cấp chứng chỉ.",
-  demos:"Dùng thử công cụ minh họa",docAll:"Danh mục tài liệu chi tiết",notLive:"Trạng thái liên kết chưa kiểm chứng từng trang"},
+  demos:"Dùng thử công cụ minh họa",docAll:"Danh mục tài liệu chi tiết",notLive:"Chưa xác minh truy cập",live:"HTTP 200 · 25/10",outdated:"HTTP 404 · cần nguồn thay thế"},
  en:{title:"Plain-language learning guide — from zero to practice",sub:"19 original explanations, with everyday analogies and real exercises, linked to official resources for further reading.",
-  sourceTitle:"Official source index",sourceNote:"204 links indexed on 24 Oct 2026; individual URLs and current contents have not all been reverified. This is not a full-text mirror.",
+  handbook:"Read the Markdown handbook",sourceTitle:"Official source index",sourceNote:"Checked 204 links on 25 Oct 2026: 198 HTTP 200, six HTTP 404. Reachability is not proof that content or features remain current. No full-text mirror.",
   lesson:"Linked practical lessons",source:"Official source",easy:"In plain language",analogy:"Everyday analogy",example:"Concrete example",
   risk:"Common mistake",try:"Try it in 5–15 minutes",topic:"Topic",level:"Level",openLesson:"Open lesson",docs:"References",
   docsTitle:"Full indexed documentation catalog",search:"Search topics and documentation…",all:"All",clear:"Clear filters",show:"Load more documents",
@@ -29,7 +29,7 @@ const COPY={
   changed:"Product interfaces and availability can change; check the official source before acting.",next:"Open practice lesson",task:"Beginner-friendly challenge",
   beginner:"New here? Start from the very beginning",start:"Three-minute start",roadmap:"Personalized roadmap",
   legacy:"Legacy: check current replacement",links:"Indexed links",guideCount:"Guides",sourceCount:"Classified URLs",tierHint:"These tiers are navigation aids, not assessments or certificates.",
-  demos:"Try a related demo",docAll:"Detailed source catalog",notLive:"Per-page URL status not individually verified"}
+  demos:"Try a related demo",docAll:"Detailed source catalog",notLive:"Access unverified",live:"HTTP 200 · 25 Oct",outdated:"HTTP 404 · find replacement"}
 };
 const DEMOS={
  "privacy-basics":"../screenshot-privacy-reviewer/",
@@ -40,7 +40,7 @@ const DEMOS={
  "agent-platform":"../agent-ops-clinic/"
 };
 const safe=url=>typeof url==="string"&&url.startsWith("https://")&&!/[<>"'\\\s]/.test(url)&&url.length<2049;
-let map=null,locale="vi",selectedTier="Zero",filterTier="all",filterProduct="all",query="",shown=12,opened=null,lastError="";
+let map=null,locale="vi",selectedTier="Zero",filterTier="all",filterProduct="all",filterStatus="all",query="",shown=12,opened=null,lastError="";
 let onOpenLesson=()=>{},onStart=()=>{},onRoadmap=()=>{};
 const t=k=>COPY[locale][k]||k;
 function valid(data){
@@ -101,6 +101,7 @@ function resources(){
  const needle=query.toLocaleLowerCase().trim();
  const filtered=map.documents.filter(d=>(filterTier==="all"||d.level===filterTier)&&
    (filterProduct==="all"||d.product===filterProduct)&&
+   (filterStatus==="all"||(filterStatus==="available"&&d.verifiedLive)||(filterStatus==="unavailable"&&!d.verifiedLive))&&
    (!needle||(d.title+" "+d.url+" "+d.product+" "+d.category.join(" ")).toLocaleLowerCase().includes(needle)));
  const visible=filtered.slice(0,shown);
  const filters='<div class="guide-filters"><input type="search" id="guide-search" maxlength="100" value="'+esc(query)+'" placeholder="'+esc(t("search"))+'" aria-label="'+esc(t("search"))+'">'
@@ -108,13 +109,17 @@ function resources(){
  +["Codex","ChatGPT","Platform"].map(p=>'<option value="'+p+'" '+(filterProduct===p?"selected":"")+'>'+p+'</option>').join("")+'</select>'
  +'<select id="guide-doc-tier" aria-label="'+esc(t("level"))+'"><option value="all">'+esc(t("all"))+' levels</option>'
  +TIERS.map(tier=>'<option value="'+tier+'" '+(filterTier===tier?"selected":"")+'>'+esc(tier)+'</option>').join("")+'</select>'
+ +'<select id="guide-status" aria-label="Source HTTP status"><option value="all">All status</option>'
+ +'<option value="available" '+(filterStatus==="available"?"selected":"")+'>HTTP 200 · '+map.sourceIndex.httpReachable+'</option>'
+ +'<option value="unavailable" '+(filterStatus==="unavailable"?"selected":"")+'>HTTP 404 · '+map.sourceIndex.httpUnavailable+'</option></select>'
  +'<button type="button" class="button tiny" data-guide-clear>'+esc(t("clear"))+'</button></div>';
  return '<section class="guide-section guide-shelf" id="guide-source-index"><div class="guide-heading"><div><div class="eyebrow">03 / SOURCE-TO-LESSON REGISTRY</div>'
  +'<h3>'+esc(t("docsTitle"))+'</h3><p>'+esc(t("sourceNote"))+'</p></div><span class="tag">'+filtered.length+' / '+map.documents.length+' '+esc(t("sourceCount"))+'</span></div>'
  +filters+'<div class="guide-doc-list">'+(visible.length?visible.map(d=>{
    const guide=map.guides.find(g=>g.id===d.guide),label=guide?guide[locale].title:d.guide;
    return '<article class="guide-document"><div class="guide-document-main"><a href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+esc(d.title)+' ↗</a>'
-   +'<small>'+esc(d.product)+' · ' +esc(d.level)+(d.legacy?' · '+esc(t("legacy")):'')+' · '+esc(t("notLive"))+'</small></div>'
+   +'<small>'+esc(d.product)+' · ' +esc(d.level)+(d.legacy?' · '+esc(t("legacy")):'')+' · '+esc(d.verifiedLive?t("live"):(d.sourceHttp===404?t("outdated"):t("notLive")))+'</small>'
+   +(d.sourceHeadings?.length?'<small class="guide-source-outline">'+esc(d.sourceHeadings[0])+'</small>':'')+'</div>'
    +'<button type="button" data-guide-jump="'+esc(d.guide)+'" class="guide-map-link">'+esc(label)+' →</button></article>';
  }).join(""):'<p class="guide-empty">'+esc(t("filterEmpty"))+'</p>')+'</div>'
  +(filtered.length>shown?'<button type="button" data-guide-more class="button secondary guide-more">'+esc(t("show"))+' ('+(filtered.length-shown)+')</button>':"")
@@ -128,7 +133,8 @@ function render(lang="vi"){
  +'<div class="guide-hero"><div><div class="eyebrow">START → LEARN → PRACTICE → VERIFY</div><h2>'+esc(t("title"))+'</h2>'
  +'<p>'+esc(t("sub"))+'</p><div class="guide-actions"><button type="button" data-guide-start class="button primary">'+esc(t("start"))+' ↗</button>'
  +'<button type="button" data-guide-roadmap class="button secondary">'+esc(t("roadmap"))+' →</button>'
- +'<button type="button" data-guide-scroll class="button outline">'+count+' '+esc(t("links"))+' ↓</button></div></div>'
+ +'<button type="button" data-guide-scroll class="button outline">'+count+' '+esc(t("links"))+' ↓</button>'
+ +'<a href="./'+(locale==="vi"?"HANDBOOK_VI.md":"HANDBOOK_EN.md")+'" class="button secondary" target="_blank" rel="noopener noreferrer">'+esc(t("handbook"))+' ↗</a></div></div>'
  +'<div class="guide-hero-stats"><strong>19</strong><small>'+esc(t("guideCount"))+'</small><strong>'+count+'</strong><small>'+esc(t("sourceCount"))+'</small></div></div>'
  +'<div class="guide-warning-inline">'+esc(t("changed"))+' · '+esc(t("sourceNote"))+'</div>'
  +tiers()+cards()+resources()+'</div>';
@@ -154,7 +160,7 @@ function bind(element){
     element.querySelector('[data-guide-card="'+item.id+'"]')?.scrollIntoView({block:"center",behavior:"smooth"});}
    return;
   }
-  if(e.target.closest("[data-guide-clear]")){query="";filterTier="all";filterProduct="all";shown=12;paint();return}
+  if(e.target.closest("[data-guide-clear]")){query="";filterTier="all";filterProduct="all";filterStatus="all";shown=12;paint();return}
   if(e.target.closest("[data-guide-more]")){shown=Math.min(shown+16,map.documents.length);paint();return}
  });
  element.addEventListener("toggle",e=>{
@@ -171,6 +177,7 @@ function bind(element){
  element.addEventListener("change",e=>{
   if(e.target?.id==="guide-product"){filterProduct=e.target.value;shown=12;paint()}
   if(e.target?.id==="guide-doc-tier"){filterTier=e.target.value;shown=12;paint()}
+  if(e.target?.id==="guide-status"){filterStatus=e.target.value;shown=12;paint()}
  });
 }
 function paint(){
@@ -183,5 +190,5 @@ function configure({openLesson,start,roadmap}={}){
  if(typeof start==="function")onStart=start;
  if(typeof roadmap==="function")onRoadmap=roadmap;
 }
-root.CodexGuideScreen={load,valid,render,mount,configure,getState:()=>({guides:map?.guides.length||0,sources:map?.documents.length||0,tier:selectedTier,filterProduct,filterTier})};
+root.CodexGuideScreen={load,valid,render,mount,configure,getState:()=>({guides:map?.guides.length||0,sources:map?.documents.length||0,tier:selectedTier,filterProduct,filterTier,filterStatus})};
 })(window);

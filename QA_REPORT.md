@@ -55,3 +55,11 @@ This app is a study planning/portfolio aid. Quiz completion is local only; no re
 - All 36 supplementary lessons now have distinct practical quiz questions, correct answer positions 0/1/2 and context-specific explanations.
 - Legacy docs are visibly marked; they remain searchable for historical reference, not recommended as current instructions.
 - Dated source index does not assert full article content was freshly crawled or verified.
+
+## Live source retrieval and handbook QA
+
+- Actual HTTP audit of 204/204 indexed URLs performed 2026-10-25, with respect for robots.txt. Results: 198 fetched (HTTP 200 and SHA-256 content fingerprint) and 6 unavailable (HTTP 404); no full-text article content republished.
+- The six unavailable indexed references remain listed as archived/historical index records with 404 warning; no inaccessible source was used as a default reference card for the 19 editorial guide modules.
+- Source-to-guide mapping enforces appropriate tier; all 204 sources have a primary assigned educational concept and 19 modules carry curated references.
+- Standalone bilingual Markdown handbooks contain 19 original explained modules each. Tests also protect against accidentally embedding applicant email addresses.
+- All source-status fields in the browser map are generated deterministically from the same versioned public metadata snapshot; no claim that HTTP 200 means the external source is still correct.
