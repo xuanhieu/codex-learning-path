@@ -127,3 +127,9 @@ Guide topics now map to three relevant hands-on products:
 - Git diffs and first contribution → First PR Clinic.
 - Human review, tests and governance → Human Review Gate.
 They are educational simulations, not live GitHub account operations, agent execution or official OpenAI software.
+
+## 2026-10-25 illustrated learning pass
+
+- New original `visuals.js` and `visuals.css` show infographic-style learning flows for every guide and all 61 lesson dialogs, with Vietnamese/English labels, responsive mobile stacking and meaningful text alternatives.
+- Primary UI emphasis changed from conflicting legacy blue/cyan/green into neutral graphite and a restrained warm earth accent. This is **independently designed, Codex-inspired** and does not reuse OpenAI trademarks or logo artwork.
+- Three tools linked from the guide now have verified functioning standalone pages: N003 Zero-Token Workshop, N006 Human Review Gate, O004 First PR Clinic; additional N065 README linter and N074 Curriculum Planner are connected to the appropriate guide topics. All features use local synthetic data only.

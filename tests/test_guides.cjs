@@ -155,6 +155,29 @@ test("source-index navigation cannot clobber learning path route",()=>{
  assert.match(s,/data-guide-scroll/);
  assert.doesNotMatch(s,/href="#guide-source-index"/);
 });
+test("visual lesson diagrams are locally authored and scripted on the guide and practice views",()=>{
+ const v=fs.readFileSync(path.join(ROOT,"visuals.js"),"utf8");
+ const css=fs.readFileSync(path.join(ROOT,"visuals.css"),"utf8");
+ const html=fs.readFileSync(path.join(ROOT,"index.html"),"utf8");
+ const guides=fs.readFileSync(path.join(ROOT,"guide-ui.js"),"utf8");
+ const app=fs.readFileSync(path.join(ROOT,"app.js"),"utf8");
+ assert.match(v,/root.CodexVisuals=\{guide,lesson,concepts/);
+ assert.match(v,/role="group" aria-label/);
+ assert.match(v,/<svg class="visual-pictogram"/);
+ assert.match(css,/prefers-reduced-motion:reduce/);
+ assert.match(css,/grid-template-columns:1fr/);
+ assert.match(html,/src="\.\/visuals.js"/);
+ assert.match(html,/href="\.\/visuals.css"/);
+ assert.match(guides,/CodexVisuals\.guide\(g,locale\)/);
+ assert.match(app,/CodexVisuals\.lesson\(lesson,locale\)/);
+});
+test("main highlight palette uses restrained accessible warm earth rather than saturated blue gradient",()=>{
+ const css=fs.readFileSync(path.join(ROOT,"visuals.css"),"utf8");
+ assert.match(css,/--cyan:#9c5138/);
+ assert.match(css,/--cyan:#edab8b/);
+ assert.match(css,/--hero-bg:#eae9e5/);
+ assert.doesNotMatch(css,/linear-gradient\(/);
+});
 test("two self-contained handbooks cover all 19 human explanations",()=>{
  for(const lang of ["VI","EN"]){
   const content=fs.readFileSync(path.join(ROOT,"HANDBOOK_"+lang+".md"),"utf8");

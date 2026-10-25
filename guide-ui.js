@@ -36,10 +36,10 @@ const DEMOS={
  "tool-choice":"../zero-token-workshop/",
  "codex-begin":"../zero-token-workshop/",
  "git-and-diffs":"../first-pr-clinic/",
- "review-tests":"../human-review-checklist/",
- "team-governance":"../human-review-checklist/",
+ "review-tests":"../readme-quality-linter/",
+ "team-governance":"../workshop-curriculum-planner/",
  "privacy-basics":"../screenshot-privacy-reviewer/",
- "approval":"../approval-drill/",
+ "approval":"../human-review-checklist/",
  "release-review":"../evidence-chain/",
  "evals":"../docs-change-radar/",
  "safe-connections":"../approval-drill/",
@@ -85,6 +85,7 @@ function guideCard(g,i){
  return '<details class="guide-card" data-guide-card="'+esc(g.id)+'" '+(detail?"open":"")+'>'
  +'<summary><span class="guide-number">'+String(i+1).padStart(2,"0")+'</span><span class="guide-card-intro"><strong>'+esc(content.title)+'</strong><small>'+esc(content.simple)+'</small></span><span class="guide-chevron">⌄</span></summary>'
  +'<div class="guide-detail">'
+ +(root.CodexVisuals?root.CodexVisuals.guide(g,locale):'')
  +'<div class="guide-walkthrough"><article><span>'+esc(t("easy"))+'</span><p>'+esc(content.simple)+'</p></article>'
  +'<article><span>'+esc(t("analogy"))+'</span><p>'+esc(content.analogy)+'</p></article>'
  +'<article><span>'+esc(t("example"))+'</span><p>'+esc(content.example)+'</p></article>'
@@ -141,7 +142,13 @@ function render(lang="vi"){
  +'<button type="button" data-guide-roadmap class="button secondary">'+esc(t("roadmap"))+' →</button>'
  +'<button type="button" data-guide-scroll class="button outline">'+count+' '+esc(t("links"))+' ↓</button>'
  +'<a href="./'+(locale==="vi"?"HANDBOOK_VI.md":"HANDBOOK_EN.md")+'" class="button secondary" target="_blank" rel="noopener noreferrer">'+esc(t("handbook"))+' ↗</a></div></div>'
- +'<div class="guide-hero-stats"><strong>19</strong><small>'+esc(t("guideCount"))+'</small><strong>'+count+'</strong><small>'+esc(t("sourceCount"))+'</small></div></div>'
+ +'<div class="guide-preview" role="img" aria-label="'+esc(locale==="vi"?"Sơ đồ: Hiểu → Thử → Kiểm chứng":"Diagram: Learn → Try → Verify")+'">'
+ +'<div class="guide-preview-step"><b>01</b><span>'+esc(locale==="vi"?"Hiểu":"Learn")+'</span></div>'
+ +'<div class="guide-preview-arrow">↓</div>'
+ +'<div class="guide-preview-step"><b>02</b><span>'+esc(locale==="vi"?"Thực hành":"Try it")+'</span></div>'
+ +'<div class="guide-preview-arrow">↓</div>'
+ +'<div class="guide-preview-step"><b>03</b><span>'+esc(locale==="vi"?"Kiểm chứng":"Verify")+'</span></div>'
+ +'<small>19 '+esc(t("guideCount"))+' · '+count+' '+esc(t("sourceCount"))+'</small></div></div>'
  +'<div class="guide-warning-inline">'+esc(t("changed"))+' · '+esc(t("sourceNote"))+'</div>'
  +tiers()+cards()+resources()+'</div>';
 }

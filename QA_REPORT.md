@@ -63,3 +63,11 @@ This app is a study planning/portfolio aid. Quiz completion is local only; no re
 - Source-to-guide mapping enforces appropriate tier; all 204 sources have a primary assigned educational concept and 19 modules carry curated references.
 - Standalone bilingual Markdown handbooks contain 19 original explained modules each. Tests also protect against accidentally embedding applicant email addresses.
 - All source-status fields in the browser map are generated deterministically from the same versioned public metadata snapshot; no claim that HTTP 200 means the external source is still correct.
+
+## 2026-10-25 — Real instructional infographics and visual polish
+
+- Inspired by the *clarity* of official Codex/OpenAI documentation; the independent product uses its own graphite + restrained warm accent palette, never imitates official logos or claims OpenAI brand ownership.
+- Custom semantic SVG/HTML visual diagrams created for 19 editorial topics plus a dynamic three-step diagram for every interactive lesson (61 lessons). All are generated locally without remote image APIs or third-party licensed images.
+- New first-fold quick-flow infographic shows Learn → Try → Verify before the accordion.
+- Chrome CDP at 390/768/1440 passed all prior learning paths, role selection, source health, and new infographic visibility / 3-step lesson modal / dark-or-light accent tests, zero reported horizontal overflow.
+- 98/98 local Codex Path Node unit tests (includes visual/route/palette checks); user-visible docs remain manually curated and linked to dated official source index rather than copied full source content.

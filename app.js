@@ -298,6 +298,7 @@ function openLesson(id){
  const quiz=obj.quiz;
  let html='<div class="tag">'+esc(lesson.level)+' · '+esc(lesson.duration)+' min</div>'
   +'<h3>'+t("target")+'</h3><p>'+esc(obj.outcome)+'</p>'
+  +(window.CodexVisuals?window.CodexVisuals.lesson(lesson,locale):'')
   +'<h3>'+t("checklist")+'</h3><p class="practice-hint">'+(locale==="vi"?"Làm từng bước, đánh dấu sau khi tự kiểm tra kết quả.":"Complete each step and check it after reviewing your result.")+'</p>'
   +'<ol class="practice-checklist">'+obj.exercise.map((v,i)=>'<li><label class="confirm-row"><input type="checkbox" data-lesson-step="'+esc(id)+'" data-step-index="'+i+'" '+((state.steps?.[id]||[]).includes(i)?"checked":"")+'><span>'+esc(v)+'</span></label></li>').join("")+'</ol>'
   +'<div class="field-feedback" id="steps-feedback" role="status">'+(state.steps?.[id]||[]).length+'/'+obj.exercise.length+' '+(locale==="vi"?"bước hoàn thành":"steps complete")+'</div>'
