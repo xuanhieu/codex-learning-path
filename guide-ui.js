@@ -32,6 +32,12 @@ const COPY={
   demos:"Try a related demo",docAll:"Detailed source catalog",notLive:"Access unverified",live:"HTTP 200 · 25 Oct",outdated:"HTTP 404 · find replacement"}
 };
 const DEMOS={
+ "first-task":"../zero-token-workshop/",
+ "tool-choice":"../zero-token-workshop/",
+ "codex-begin":"../zero-token-workshop/",
+ "git-and-diffs":"../first-pr-clinic/",
+ "review-tests":"../human-review-checklist/",
+ "team-governance":"../human-review-checklist/",
  "privacy-basics":"../screenshot-privacy-reviewer/",
  "approval":"../approval-drill/",
  "release-review":"../evidence-chain/",

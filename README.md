@@ -119,3 +119,11 @@ Visual direction is Codex-inspired **without imitating or claiming official Open
 - Browser smoke 390/768/1440px: all main learning routes, VI/EN, local persistence, light/dark switching, quiz, evidence forms, source links and cross-mapping pass without horizontal overflow.
 - Live deploy through Cloudflare Pages uses sanitized allowlist build; the private applicant dashboard remains segregated.
 - Accessibility and visual polish are independently checked, not certified as OpenAI UI parity.
+
+
+## Related real local-first learning microapps
+Guide topics now map to three relevant hands-on products:
+- First task, tool selection, Codex beginner → Zero-Token Workshop.
+- Git diffs and first contribution → First PR Clinic.
+- Human review, tests and governance → Human Review Gate.
+They are educational simulations, not live GitHub account operations, agent execution or official OpenAI software.

@@ -140,6 +140,11 @@ test("safe source UI uses text escaping before markup",()=>{
  assert.match(s,/target="_blank" rel="noopener noreferrer"/);
  assert.doesNotMatch(s,/\beval\s*\(|\bXMLHttpRequest\b|sendBeacon|WebSocket/);
 });
+test("quick-win teaching demos are linked from matching topics",()=>{
+ const ui=fs.readFileSync(path.join(ROOT,"guide-ui.js"),"utf8");
+ for(const slug of ["zero-token-workshop","first-pr-clinic","human-review-checklist"])
+  assert.ok(ui.includes("../"+slug+"/"),slug);
+});
 test("documentation index loading is local only",()=>{
  const s=fs.readFileSync(path.join(ROOT,"guide-ui.js"),"utf8");
  assert.match(s,/fetch\("\.\/data\/learning-map.json"/);
