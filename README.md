@@ -89,7 +89,15 @@ Current canonical app: https://codex.xuanhieu.org/demos/codex-path/#start
 4. **Plain-language guide:** `#guide` includes 19 editorial summaries in VI/EN, a daily-life analogy, concrete example, common mistake, small challenge, direct practice links and 1–4 source pointers.
 5. **Source/lesson registry:** 204 indexed official resource URLs (45 Codex, 158 ChatGPT, 1 Platform). Each is classified into one primary guide with search, tier and product filters. This is the **24/10/2026 source index**, not a claim that each link was checked alive today or that its full contents were copied. Full texts stay with their owner.
 6. **Mapping algorithm:** `python3 builders_curriculum.py && python3 build_guide_map.py` rebuilds the deterministic source-to-lesson indexes from Academy's `lessons.json`, `catalog.json` and the curated original `every-human-extension.json`.
-7. **Start-to-finish QA:** `node --test tests/test_engine.cjs tests/test_starter.cjs tests/test_guides.cjs` passed **85/85**. Real Chrome 390/768/1440px tested the full 3-minute journey, source mapping, official document search/filtering, bilingual switch, 61 lessons and 14 routes without overflow. All first-win outputs are synthetic, not AI-generated claims.
+7. **Start-to-finish QA:** `node --test tests/test_engine.cjs tests/test_starter.cjs tests/test_guides.cjs` passed **91/91**. Real Chrome 390/768/1440px tested the full 3-minute journey, source mapping, official document search/filtering, bilingual switch, 61 lessons and 14 routes without overflow. All first-win outputs are synthetic, not AI-generated claims.
 8. **Limitations:** self-reported quiz and checkbox progress are not certifications. No backend user account, live AI API, personal data upload, complete reading of all 204 linked articles, real learner study or independent WCAG certification is claimed.
 
 Additional technical documentation: `docs/21_EVERY_HUMAN_LEARNING_MAP_2026-10-25.md` (local master workspace).
+
+## Content quality / second review
+
+- Source taxonomy prioritizes intended learner level before keyword topic; advanced Security/Enterprise pages cannot be misfiled into Zero.
+- Manually curated official reference anchors replace unrelated filler documents.
+- Legacy/deprecated resources show an explicit warning, not a current-feature assumption.
+- The 36 applied lessons have scenario-specific outcomes and explanations; correct choices are distributed.
+- The GitHub repository includes 25 original Academy lesson records and the dated 204-item index, allowing reproducible standalone builds.

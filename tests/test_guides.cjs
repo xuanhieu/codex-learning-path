@@ -48,6 +48,18 @@ test("source editorial overrides are explicit for SDK and app server",()=>{
  assert.equal(doc.learningLevel,"Pro");
  assert.equal(doc.level,"Pro");
 });
+test("guided references are curated and on-topic, not arbitrary fallback",()=>{
+ const refs=id=>map.guides.find(g=>g.id===id).references.map(x=>x.title).join(" | ");
+ assert.match(refs("tool-choice"),/ChatGPT Work/);assert.doesNotMatch(refs("tool-choice"),/Amazon Bedrock/);
+ assert.match(refs("good-request"),/Prompting/);
+ assert.match(refs("privacy-basics"),/Permissions/);
+ assert.match(refs("parallel-work"),/Worktrees/);
+ assert.match(refs("safe-connections"),/Model Context Protocol/);
+});
+test("quizzes vary correct-answer positions to prevent predictable guessing",()=>{
+ const numbers=new Set(course.lessons.slice(25).map(x=>x.vi.quiz.answer));
+ assert.deepEqual([...numbers].sort(),[0,1,2]);
+});
 test("all guide references preserve catalog URLs",()=>{
  const byId=new Map(map.documents.map(x=>[x.id,x.url]));
  for(const guide of map.guides)for(const ref of guide.references)
@@ -60,6 +72,13 @@ test("all sources HTTPS, no localhost URL or credentials",()=>{
   assert.equal(u.username,"");assert.equal(u.password,"");
   assert.ok(!["localhost","127.0.0.1"].includes(u.hostname));
  }
+});
+test("legacy and replaced source docs are visibly flagged",()=>{
+ const flagged=map.documents.filter(x=>x.legacy);
+ assert.ok(flagged.length>=3);
+ const html=fs.readFileSync(path.join(ROOT,"guide-ui.js"),"utf8");
+ assert.match(html,/d\.legacy/);
+ assert.match(html,/Legacy:/);
 });
 test("no misleading live-checked claims are embedded",()=>{
  for(const doc of map.documents)assert.equal(doc.verifiedLive,false);
@@ -78,7 +97,9 @@ test("editorial supplement is original content with concrete outcomes",()=>{
   for(const locale of ["vi","en"]){
    assert.equal(lesson[locale].exercise.length,3);
    assert.ok(lesson[locale].outcome.length>=20);
-   assert.equal(lesson[locale].quiz.answer,0);
+   assert.ok([0,1,2].includes(lesson[locale].quiz.answer));
+   assert.ok(lesson[locale].quiz.options[lesson[locale].quiz.answer].includes(lesson[locale].outcome));
+   assert.ok(lesson[locale].quiz.explanation.includes(lesson[locale].outcome));
   }
  }
 });

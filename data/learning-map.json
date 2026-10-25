@@ -37,11 +37,6 @@
       },
       "references": [
         {
-          "id": "src-10a780b90cf4",
-          "url": "https://learn.chatgpt.com/docs.md",
-          "title": "ChatGPT"
-        },
-        {
           "id": "src-b90e41678b02",
           "url": "https://learn.chatgpt.com/docs/quickstart.md",
           "title": "Quickstart"
@@ -52,9 +47,9 @@
           "title": "Use ChatGPT"
         },
         {
-          "id": "src-2645e597941a",
-          "url": "https://learn.chatgpt.com/docs/customization/overview.md",
-          "title": "Customization"
+          "id": "src-9bf3380dbfdf",
+          "url": "https://developers.openai.com/training",
+          "title": "OpenAI training"
         }
       ]
     },
@@ -85,14 +80,19 @@
       },
       "references": [
         {
-          "id": "src-fc9fbba758a5",
-          "url": "https://learn.chatgpt.com/docs/amazon-bedrock.md",
-          "title": "Use ChatGPT Work and Codex with Amazon Bedrock"
-        },
-        {
           "id": "src-2c7688c996bc",
           "url": "https://learn.chatgpt.com/docs/get-started-with-work.md",
           "title": "Get started with ChatGPT Work"
+        },
+        {
+          "id": "src-fd92e4296401",
+          "url": "https://learn.chatgpt.com/docs/codex-manual.md",
+          "title": "Codex manual (Markdown)"
+        },
+        {
+          "id": "src-b90e41678b02",
+          "url": "https://learn.chatgpt.com/docs/quickstart.md",
+          "title": "Quickstart"
         }
       ]
     },
@@ -123,14 +123,19 @@
       },
       "references": [
         {
-          "id": "src-fd92e4296401",
-          "url": "https://learn.chatgpt.com/docs/codex-manual.md",
-          "title": "Codex manual (Markdown)"
+          "id": "src-0310706ee861",
+          "url": "https://learn.chatgpt.com/docs/prompting.md",
+          "title": "Prompting"
         },
         {
-          "id": "src-fc9fbba758a5",
-          "url": "https://learn.chatgpt.com/docs/amazon-bedrock.md",
-          "title": "Use ChatGPT Work and Codex with Amazon Bedrock"
+          "id": "src-81a2fac530c8",
+          "url": "https://learn.chatgpt.com/docs/custom-prompts.md",
+          "title": "Custom Prompts"
+        },
+        {
+          "id": "src-67a7ce1fea36",
+          "url": "https://learn.chatgpt.com/guides/best-practices.md",
+          "title": "Best practices"
         }
       ]
     },
@@ -161,14 +166,19 @@
       },
       "references": [
         {
-          "id": "src-fd92e4296401",
-          "url": "https://learn.chatgpt.com/docs/codex-manual.md",
-          "title": "Codex manual (Markdown)"
+          "id": "src-907da152b649",
+          "url": "https://learn.chatgpt.com/docs/permission-modes.md",
+          "title": "Permissions"
         },
         {
-          "id": "src-fc9fbba758a5",
-          "url": "https://learn.chatgpt.com/docs/amazon-bedrock.md",
-          "title": "Use ChatGPT Work and Codex with Amazon Bedrock"
+          "id": "src-04f6dcc4a4fe",
+          "url": "https://learn.chatgpt.com/docs/cyber-safety.md",
+          "title": "Models and Trusted Access"
+        },
+        {
+          "id": "src-b7af4e0dbfe6",
+          "url": "https://learn.chatgpt.com/docs/agent-approvals-security.md",
+          "title": "Agent approvals & security"
         }
       ]
     },
@@ -199,14 +209,19 @@
       },
       "references": [
         {
-          "id": "src-fd92e4296401",
-          "url": "https://learn.chatgpt.com/docs/codex-manual.md",
-          "title": "Codex manual (Markdown)"
+          "id": "src-67a7ce1fea36",
+          "url": "https://learn.chatgpt.com/guides/best-practices.md",
+          "title": "Best practices"
         },
         {
-          "id": "src-fc9fbba758a5",
-          "url": "https://learn.chatgpt.com/docs/amazon-bedrock.md",
-          "title": "Use ChatGPT Work and Codex with Amazon Bedrock"
+          "id": "src-eb9462608041",
+          "url": "https://learn.chatgpt.com/docs/web-search.md",
+          "title": "Web search"
+        },
+        {
+          "id": "src-b90e41678b02",
+          "url": "https://learn.chatgpt.com/docs/quickstart.md",
+          "title": "Quickstart"
         }
       ]
     },
@@ -242,19 +257,19 @@
           "title": "Codex CLI"
         },
         {
-          "id": "src-c302e8415c7f",
-          "url": "https://learn.chatgpt.com/docs/cloud.md",
-          "title": "Codex Cloud"
-        },
-        {
-          "id": "src-0169dfa5d4e3",
-          "url": "https://learn.chatgpt.com/docs/features/codex-micro.md",
-          "title": "Codex Micro"
+          "id": "src-c7af5bbd5710",
+          "url": "https://learn.chatgpt.com/docs/codex/ide.md",
+          "title": "Codex IDE extension"
         },
         {
           "id": "src-d17597ae7fe9",
           "url": "https://developers.openai.com/learn/codex",
           "title": "Learn Codex"
+        },
+        {
+          "id": "src-fd92e4296401",
+          "url": "https://learn.chatgpt.com/docs/codex-manual.md",
+          "title": "Codex manual (Markdown)"
         }
       ]
     },
@@ -290,9 +305,14 @@
           "title": "Worktrees"
         },
         {
-          "id": "src-434ee24ee096",
-          "url": "https://learn.chatgpt.com/docs/third-party/linear.md",
-          "title": "Use Codex in Linear"
+          "id": "src-ba7354e17482",
+          "url": "https://learn.chatgpt.com/docs/third-party/github.md",
+          "title": "Review GitHub pull requests with Codex"
+        },
+        {
+          "id": "src-47b0440a51c2",
+          "url": "https://learn.chatgpt.com/docs/code-review.md",
+          "title": "Code review"
         }
       ]
     },
@@ -323,19 +343,19 @@
       },
       "references": [
         {
+          "id": "src-47b0440a51c2",
+          "url": "https://learn.chatgpt.com/docs/code-review.md",
+          "title": "Code review"
+        },
+        {
           "id": "src-ba7354e17482",
           "url": "https://learn.chatgpt.com/docs/third-party/github.md",
           "title": "Review GitHub pull requests with Codex"
         },
         {
-          "id": "src-e0c9ac1b89dd",
-          "url": "https://learn.chatgpt.com/docs/third-party/gitlab.md",
-          "title": "Review GitLab merge requests with Codex"
-        },
-        {
-          "id": "src-47b0440a51c2",
-          "url": "https://learn.chatgpt.com/docs/code-review.md",
-          "title": "Code review"
+          "id": "src-67a7ce1fea36",
+          "url": "https://learn.chatgpt.com/guides/best-practices.md",
+          "title": "Best practices"
         }
       ]
     },
@@ -366,19 +386,14 @@
       },
       "references": [
         {
-          "id": "src-3c6726ad6416",
-          "url": "https://learn.chatgpt.com/docs/sites.md",
-          "title": "Sites"
-        },
-        {
           "id": "src-56e8c36f028e",
           "url": "https://learn.chatgpt.com/docs/sites/creating-a-site.md",
           "title": "Create a site"
         },
         {
-          "id": "src-8063f9ed486d",
-          "url": "https://learn.chatgpt.com/docs/sites/managing-a-site.md",
-          "title": "Manage a site"
+          "id": "src-3c6726ad6416",
+          "url": "https://learn.chatgpt.com/docs/sites.md",
+          "title": "Sites"
         },
         {
           "id": "src-fc9cd7880ec6",
@@ -414,24 +429,19 @@
       },
       "references": [
         {
+          "id": "src-94f17e3de1ca",
+          "url": "https://learn.chatgpt.com/docs/agent-configuration/agents-md.md",
+          "title": "Custom instructions with AGENTS.md"
+        },
+        {
           "id": "src-6c7aa55b479f",
           "url": "https://learn.chatgpt.com/docs/agent-configuration/rules.md",
           "title": "Rules"
         },
         {
-          "id": "src-55cdea3737e3",
-          "url": "https://learn.chatgpt.com/docs/agent-configuration/speed.md",
-          "title": "Speed"
-        },
-        {
           "id": "src-d684e38d0094",
           "url": "https://learn.chatgpt.com/docs/config-file/config-basic.md",
           "title": "Config basics"
-        },
-        {
-          "id": "src-f05fc21d24fe",
-          "url": "https://learn.chatgpt.com/docs/configuration.md",
-          "title": "Configuration"
         }
       ]
     },
@@ -462,24 +472,19 @@
       },
       "references": [
         {
-          "id": "src-dea5d8982f04",
-          "url": "https://learn.chatgpt.com/docs/plugins.md",
-          "title": "Plugins"
-        },
-        {
           "id": "src-575ba4762ea6",
           "url": "https://learn.chatgpt.com/docs/build-skills.md",
           "title": "Build skills"
         },
         {
-          "id": "src-0d81218eacd2",
-          "url": "https://learn.chatgpt.com/docs/build-plugins.md",
-          "title": "Build plugins"
-        },
-        {
           "id": "src-f06621b97709",
           "url": "https://learn.chatgpt.com/docs/skills-and-plugins.md",
           "title": "Skills & Plugins"
+        },
+        {
+          "id": "src-0d81218eacd2",
+          "url": "https://learn.chatgpt.com/docs/build-plugins.md",
+          "title": "Build plugins"
         }
       ]
     },
@@ -510,14 +515,19 @@
       },
       "references": [
         {
-          "id": "src-fd92e4296401",
-          "url": "https://learn.chatgpt.com/docs/codex-manual.md",
-          "title": "Codex manual (Markdown)"
+          "id": "src-d955137d94c4",
+          "url": "https://learn.chatgpt.com/docs/environments/git-worktrees.md",
+          "title": "Worktrees"
         },
         {
-          "id": "src-fc9fbba758a5",
-          "url": "https://learn.chatgpt.com/docs/amazon-bedrock.md",
-          "title": "Use ChatGPT Work and Codex with Amazon Bedrock"
+          "id": "src-731168d993ec",
+          "url": "https://learn.chatgpt.com/docs/agent-configuration/subagents.md",
+          "title": "Subagents"
+        },
+        {
+          "id": "src-275a09b4f863",
+          "url": "https://learn.chatgpt.com/docs/environments/modes.md",
+          "title": "Codex environments"
         }
       ]
     },
@@ -547,6 +557,16 @@
         "challenge": "Build a table: integration → minimal permission → approver → revocation."
       },
       "references": [
+        {
+          "id": "src-dd3c07a3ae6a",
+          "url": "https://learn.chatgpt.com/docs/extend/mcp.md",
+          "title": "Model Context Protocol"
+        },
+        {
+          "id": "src-31ba1639da48",
+          "url": "https://developers.openai.com/learn/docs-mcp",
+          "title": "Documentation MCP"
+        },
         {
           "id": "src-22d54b5578c4",
           "url": "https://learn.chatgpt.com/docs/config-file/environment-variables.md",
@@ -581,6 +601,11 @@
       },
       "references": [
         {
+          "id": "src-b7af4e0dbfe6",
+          "url": "https://learn.chatgpt.com/docs/agent-approvals-security.md",
+          "title": "Agent approvals & security"
+        },
+        {
           "id": "src-668fd2258559",
           "url": "https://learn.chatgpt.com/docs/sandboxing.md",
           "title": "Sandbox"
@@ -589,16 +614,6 @@
           "id": "src-f464374c0d89",
           "url": "https://learn.chatgpt.com/docs/sandboxing/auto-review.md",
           "title": "Auto-review"
-        },
-        {
-          "id": "src-d5a186b7366e",
-          "url": "https://learn.chatgpt.com/docs/security.md",
-          "title": "Codex Security"
-        },
-        {
-          "id": "src-d86b339c4d76",
-          "url": "https://learn.chatgpt.com/docs/windows/windows-sandbox.md",
-          "title": "Windows sandbox"
         }
       ]
     },
@@ -632,6 +647,16 @@
           "id": "src-731168d993ec",
           "url": "https://learn.chatgpt.com/docs/agent-configuration/subagents.md",
           "title": "Subagents"
+        },
+        {
+          "id": "src-d955137d94c4",
+          "url": "https://learn.chatgpt.com/docs/environments/git-worktrees.md",
+          "title": "Worktrees"
+        },
+        {
+          "id": "src-b7af4e0dbfe6",
+          "url": "https://learn.chatgpt.com/docs/agent-approvals-security.md",
+          "title": "Agent approvals & security"
         }
       ]
     },
@@ -667,19 +692,14 @@
           "title": "Codex GitHub Action"
         },
         {
-          "id": "src-d4672d2ba61d",
-          "url": "https://learn.chatgpt.com/docs/security/cli/faq.md",
-          "title": "Codex Security CLI FAQ"
+          "id": "src-8d926b82884d",
+          "url": "https://learn.chatgpt.com/docs/security/cli/ci.md",
+          "title": "Codex Security CI/CD overview"
         },
         {
-          "id": "src-0462b3e29101",
-          "url": "https://learn.chatgpt.com/docs/security/cli/bulk-scans.md",
-          "title": "Run bulk security scans"
-        },
-        {
-          "id": "src-52ffdad46ad2",
-          "url": "https://learn.chatgpt.com/docs/security/plugin/scans.md",
-          "title": "Run a Codex Security scan"
+          "id": "src-649ffe457194",
+          "url": "https://learn.chatgpt.com/docs/enterprise/security-cookbook.md",
+          "title": "Codex security cookbook"
         }
       ]
     },
@@ -723,11 +743,6 @@
           "id": "src-13b97f7316a6",
           "url": "https://learn.chatgpt.com/docs/security/sdk.md",
           "title": "Codex Security TypeScript SDK"
-        },
-        {
-          "id": "src-88b1ced5fbcc",
-          "url": "https://learn.chatgpt.com/docs/enterprise/analytics-api.md",
-          "title": "Analytics API"
         }
       ]
     },
@@ -758,24 +773,19 @@
       },
       "references": [
         {
-          "id": "src-649ffe457194",
-          "url": "https://learn.chatgpt.com/docs/enterprise/security-cookbook.md",
-          "title": "Codex security cookbook"
-        },
-        {
           "id": "src-474523711974",
           "url": "https://learn.chatgpt.com/docs/enterprise/usage-insights.md",
           "title": "Usage Insights for ChatGPT Work in Codex"
         },
         {
-          "id": "src-ba100f6664b7",
-          "url": "https://learn.chatgpt.com/docs/enterprise/chatgpt-work-usage-and-cost.md",
-          "title": "ChatGPT Work: usage and cost"
+          "id": "src-649ffe457194",
+          "url": "https://learn.chatgpt.com/docs/enterprise/security-cookbook.md",
+          "title": "Codex security cookbook"
         },
         {
-          "id": "src-48de7f90f273",
-          "url": "https://learn.chatgpt.com/docs/enterprise/usage-limits.md",
-          "title": "ChatGPT usage limits and spend controls"
+          "id": "src-88b1ced5fbcc",
+          "url": "https://learn.chatgpt.com/docs/enterprise/analytics-api.md",
+          "title": "Analytics API"
         }
       ]
     },
@@ -806,24 +816,19 @@
       },
       "references": [
         {
-          "id": "src-3a9100c32164",
-          "url": "https://learn.chatgpt.com/docs/enterprise/windows-deployment.md",
-          "title": "Deploy the Windows app and Codex CLI"
-        },
-        {
-          "id": "src-f08ff2349b47",
-          "url": "https://learn.chatgpt.com/docs/security-administration.md",
-          "title": "Security"
-        },
-        {
           "id": "src-05f8d80ccc7b",
           "url": "https://learn.chatgpt.com/docs/enterprise/governance.md",
           "title": "Governance"
         },
         {
-          "id": "src-c369cec5f3b8",
-          "url": "https://learn.chatgpt.com/docs/enterprise/prisma-airs.md",
-          "title": "Prisma AIRS"
+          "id": "src-a292ca32ae05",
+          "url": "https://learn.chatgpt.com/docs/enterprise/roles-and-workspace-permissions.md",
+          "title": "Roles and workspace permissions"
+        },
+        {
+          "id": "src-18ad336d66dd",
+          "url": "https://learn.chatgpt.com/docs/enterprise/chatgpt-work-overview.md",
+          "title": "ChatGPT Work Overview"
         }
       ]
     }
@@ -842,7 +847,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-fd92e4296401",
@@ -857,7 +863,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-4ad3796df1e6",
@@ -872,7 +879,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-08825629d583",
@@ -887,7 +895,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b7af4e0dbfe6",
@@ -902,7 +911,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-94f17e3de1ca",
@@ -917,7 +927,8 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-6c7aa55b479f",
@@ -932,7 +943,8 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-55cdea3737e3",
@@ -947,7 +959,8 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-731168d993ec",
@@ -962,7 +975,8 @@
       "guide": "multi-agents",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-fc9fbba758a5",
@@ -977,7 +991,8 @@
       "guide": "tool-choice",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-04a85e845544",
@@ -992,7 +1007,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d6f4398aa465",
@@ -1007,7 +1023,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-dd7bb821828a",
@@ -1022,7 +1039,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-ce14d03dc374",
@@ -1038,7 +1056,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-1e04f0e46956",
@@ -1053,7 +1072,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-341246db376e",
@@ -1068,7 +1088,8 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-c302b8efa03e",
@@ -1083,7 +1104,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-1186da4cb8c2",
@@ -1098,7 +1120,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-1454a3aad1fa",
@@ -1113,7 +1136,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b5406e60cbfa",
@@ -1128,7 +1152,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-a7de5b39bd26",
@@ -1143,7 +1168,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-0d81218eacd2",
@@ -1158,7 +1184,8 @@
       "guide": "reusable-skills",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-575ba4762ea6",
@@ -1173,7 +1200,8 @@
       "guide": "reusable-skills",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-a74595707768",
@@ -1188,7 +1216,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-24d888be8e5f",
@@ -1203,7 +1232,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-cf38bd5054be",
@@ -1218,7 +1248,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-2a01a9d34cde",
@@ -1233,7 +1264,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-c302e8415c7f",
@@ -1248,7 +1280,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b99b352f5f4f",
@@ -1263,7 +1296,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": true
     },
     {
       "id": "src-47b0440a51c2",
@@ -1278,7 +1312,8 @@
       "guide": "review-tests",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e3c5173f4c4c",
@@ -1293,7 +1328,8 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-304dc43b0d04",
@@ -1308,7 +1344,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-7be3f970bd43",
@@ -1323,7 +1360,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b011aa51b331",
@@ -1338,7 +1376,8 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d684e38d0094",
@@ -1353,7 +1392,8 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-c2332644faa1",
@@ -1368,7 +1408,8 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-22d54b5578c4",
@@ -1383,7 +1424,8 @@
       "guide": "safe-connections",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-f52101a0e133",
@@ -1398,7 +1440,8 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-f05fc21d24fe",
@@ -1413,7 +1456,8 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-81a2fac530c8",
@@ -1428,7 +1472,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": true
     },
     {
       "id": "src-f3a0216fc3d2",
@@ -1443,7 +1488,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-2645e597941a",
@@ -1458,7 +1504,8 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-7ea5a1f5cc6a",
@@ -1473,7 +1520,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-04f6dcc4a4fe",
@@ -1488,7 +1536,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b74b7c76c711",
@@ -1503,7 +1552,8 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e65d1fa4c1e1",
@@ -1518,7 +1568,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-1323ad886101",
@@ -1533,7 +1584,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-6e39401d1f47",
@@ -1548,7 +1600,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e13354c6b025",
@@ -1563,7 +1616,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-7c8e52e0c73f",
@@ -1578,7 +1632,8 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-4b4aabd54f9e",
@@ -1593,7 +1648,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-9ffa6664dba7",
@@ -1608,7 +1664,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-f5bc151215cd",
@@ -1623,7 +1680,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-811aa7aeaf6b",
@@ -1638,7 +1696,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-dccd5924f08b",
@@ -1653,7 +1712,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-88b1ced5fbcc",
@@ -1668,7 +1728,8 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-886686d95c82",
@@ -1683,7 +1744,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d5021d01af0b",
@@ -1698,7 +1760,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-48de7f90f273",
@@ -1713,7 +1776,8 @@
       "guide": "evals",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b498643ba7f3",
@@ -1728,7 +1792,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-eea2edbcef58",
@@ -1743,7 +1808,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-54e559ed4245",
@@ -1758,7 +1824,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-18ad336d66dd",
@@ -1773,7 +1840,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-ba100f6664b7",
@@ -1788,7 +1856,8 @@
       "guide": "evals",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-649ffe457194",
@@ -1803,7 +1872,8 @@
       "guide": "evals",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-9d54fab7ad72",
@@ -1818,7 +1888,8 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-3a9100c32164",
@@ -1833,7 +1904,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-83d4edfaf8cd",
@@ -1848,7 +1920,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e9de2a6a736d",
@@ -1863,7 +1936,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-05f8d80ccc7b",
@@ -1878,7 +1952,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-517f08511f57",
@@ -1893,7 +1968,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-10dd8667120a",
@@ -1908,7 +1984,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d50d47c21e8f",
@@ -1923,7 +2000,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-24c62848a332",
@@ -1938,7 +2016,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-315e17f0f4b9",
@@ -1953,7 +2032,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-8b62a89b49b8",
@@ -1968,7 +2048,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-77481efb12a6",
@@ -1983,7 +2064,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-20bc98306a44",
@@ -1998,7 +2080,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-ab115ea47731",
@@ -2013,7 +2096,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-c369cec5f3b8",
@@ -2028,7 +2112,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-a292ca32ae05",
@@ -2043,7 +2128,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d8c21044e817",
@@ -2058,7 +2144,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-7a5e03044e16",
@@ -2073,7 +2160,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-6be952b78a5d",
@@ -2088,7 +2176,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-81de09346a07",
@@ -2103,7 +2192,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e25dfff3918f",
@@ -2118,7 +2208,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e62c8f8bdac9",
@@ -2133,7 +2224,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-160e62101398",
@@ -2148,7 +2240,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-354f957358f4",
@@ -2163,7 +2256,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-474523711974",
@@ -2178,7 +2272,8 @@
       "guide": "evals",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-5d0a94de49bd",
@@ -2193,7 +2288,8 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-16cf27f48eb0",
@@ -2208,7 +2304,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-f094a985d5b8",
@@ -2223,7 +2320,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e8a44d8693c2",
@@ -2238,7 +2336,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d409bf3c6a23",
@@ -2253,7 +2352,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-7d04f9ab1f4a",
@@ -2268,7 +2368,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-7ac5ae1c18e0",
@@ -2283,7 +2384,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-73011d6801bc",
@@ -2298,7 +2400,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": true
     },
     {
       "id": "src-275a09b4f863",
@@ -2313,7 +2416,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-86cde8be2e24",
@@ -2328,7 +2432,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d955137d94c4",
@@ -2343,7 +2448,8 @@
       "guide": "git-and-diffs",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-dd3c07a3ae6a",
@@ -2358,7 +2464,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-2c6e218368c0",
@@ -2373,7 +2480,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d303113c34a6",
@@ -2388,7 +2496,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-f449586d4612",
@@ -2403,7 +2512,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-3b6d55bd0132",
@@ -2418,7 +2528,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-0169dfa5d4e3",
@@ -2433,7 +2544,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-acc8cb67be71",
@@ -2448,7 +2560,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-2c7688c996bc",
@@ -2463,7 +2576,8 @@
       "guide": "tool-choice",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-30fdd98f8c3a",
@@ -2478,7 +2592,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-694ea1470b4c",
@@ -2493,7 +2608,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-ebab3fcbd80b",
@@ -2508,7 +2624,8 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-0aecdb1ef0ce",
@@ -2523,7 +2640,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-c7af5bbd5710",
@@ -2538,7 +2656,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-bb9b0fb8d058",
@@ -2553,7 +2672,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b24c4cceb411",
@@ -2568,7 +2688,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-6e5b50840145",
@@ -2583,7 +2704,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b64a9457088d",
@@ -2598,7 +2720,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-2b09a0f3c867",
@@ -2613,7 +2736,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-3903992afce0",
@@ -2628,7 +2752,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-67a7ce1fea36",
@@ -2643,7 +2768,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-8701a8c2ceb3",
@@ -2658,7 +2784,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-916e12c5bba5",
@@ -2673,7 +2800,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b9429ef95fab",
@@ -2688,7 +2816,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": true
     },
     {
       "id": "src-866d18fe9ed3",
@@ -2703,7 +2832,8 @@
       "guide": "reusable-skills",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e49d01f23299",
@@ -2718,7 +2848,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-0e488ebbf8af",
@@ -2733,7 +2864,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-088c850cc2af",
@@ -2748,7 +2880,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-ae24d057324a",
@@ -2763,7 +2896,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-8e570f2a8916",
@@ -2778,7 +2912,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-30bc4c999399",
@@ -2793,7 +2928,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-79239d17dd17",
@@ -2808,7 +2944,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-10a780b90cf4",
@@ -2823,7 +2960,8 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-907da152b649",
@@ -2838,7 +2976,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-4d7a5dc78b3c",
@@ -2853,7 +2992,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b81d7ecf0390",
@@ -2868,7 +3008,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-74fe1167725e",
@@ -2883,7 +3024,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-dea5d8982f04",
@@ -2898,7 +3040,8 @@
       "guide": "reusable-skills",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-24e0a6ab1e90",
@@ -2913,7 +3056,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-3353f8f8f4d9",
@@ -2928,7 +3072,8 @@
       "guide": "instructions",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-0310706ee861",
@@ -2943,7 +3088,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b90e41678b02",
@@ -2958,7 +3104,8 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-11ef3e151227",
@@ -2973,7 +3120,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-171fdaa74f75",
@@ -2988,7 +3136,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-84bbfccbaea9",
@@ -3003,7 +3152,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-668fd2258559",
@@ -3018,7 +3168,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-f464374c0d89",
@@ -3033,7 +3184,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d5a186b7366e",
@@ -3048,7 +3200,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-8d926b82884d",
@@ -3063,7 +3216,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d4672d2ba61d",
@@ -3078,7 +3232,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-1716f9f1a07b",
@@ -3093,7 +3248,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-909fb3f27618",
@@ -3108,7 +3264,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-2d8d28cbaa95",
@@ -3123,7 +3280,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-10cdc56de639",
@@ -3138,7 +3296,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-796d8353993f",
@@ -3153,7 +3312,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-bec1e26cb654",
@@ -3168,7 +3328,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-13b97f7316a6",
@@ -3183,7 +3344,8 @@
       "guide": "agent-platform",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-2908d6b44ee0",
@@ -3198,7 +3360,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-44471eb3eae1",
@@ -3213,7 +3376,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-0c53ef518880",
@@ -3228,7 +3392,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-24294757e701",
@@ -3243,7 +3408,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-06694345b687",
@@ -3258,7 +3424,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-52ffdad46ad2",
@@ -3273,7 +3440,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-03d337741f71",
@@ -3288,7 +3456,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-0462b3e29101",
@@ -3303,7 +3472,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-cb94fa07f6e7",
@@ -3318,7 +3488,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-0c31a6fce966",
@@ -3333,7 +3504,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-862c857e0358",
@@ -3348,7 +3520,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-3623d131a0f2",
@@ -3363,7 +3536,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-8486fe00c240",
@@ -3378,7 +3552,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-6afd18fb00f3",
@@ -3393,7 +3568,8 @@
       "guide": "release-review",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-f08ff2349b47",
@@ -3408,7 +3584,8 @@
       "guide": "team-governance",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-60fa4628ebb9",
@@ -3423,7 +3600,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-3c6726ad6416",
@@ -3438,7 +3616,8 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-56e8c36f028e",
@@ -3453,7 +3632,8 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e0f092cc9829",
@@ -3468,7 +3648,8 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-8063f9ed486d",
@@ -3483,7 +3664,8 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-fc9cd7880ec6",
@@ -3498,7 +3680,8 @@
       "guide": "mini-site",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-f06621b97709",
@@ -3513,7 +3696,8 @@
       "guide": "reusable-skills",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-9eaf251f273c",
@@ -3528,7 +3712,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-418e37616592",
@@ -3543,7 +3728,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-71293722d815",
@@ -3558,7 +3744,8 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-2d083870d670",
@@ -3573,7 +3760,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-c7393fbab700",
@@ -3588,7 +3776,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-ba7354e17482",
@@ -3603,7 +3792,8 @@
       "guide": "review-tests",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e0c9ac1b89dd",
@@ -3618,7 +3808,8 @@
       "guide": "review-tests",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-345f9e63361a",
@@ -3633,7 +3824,8 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-434ee24ee096",
@@ -3648,7 +3840,8 @@
       "guide": "git-and-diffs",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d6b5aa6a43ce",
@@ -3663,7 +3856,8 @@
       "guide": "first-task",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-154ca14e1ab7",
@@ -3678,7 +3872,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-989576428b61",
@@ -3693,7 +3888,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-7eb60a7a820b",
@@ -3708,7 +3904,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-eb9462608041",
@@ -3723,7 +3920,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d8e7ab2e8f18",
@@ -3738,7 +3936,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-135e664cbdfe",
@@ -3753,7 +3952,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b1af804010bc",
@@ -3768,7 +3968,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-f45de159970e",
@@ -3783,7 +3984,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-e50abb55fbf8",
@@ -3798,7 +4000,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b9b242960e22",
@@ -3813,7 +4016,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d86b339c4d76",
@@ -3828,7 +4032,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-b77766a43009",
@@ -3843,7 +4048,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-9bf3380dbfdf",
@@ -3858,7 +4064,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-d17597ae7fe9",
@@ -3873,7 +4080,8 @@
       "guide": "codex-begin",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     },
     {
       "id": "src-31ba1639da48",
@@ -3888,7 +4096,8 @@
       "guide": "approval",
       "assignmentBasis": "topic_within_learning_level",
       "indexSnapshot": "2026-10-24",
-      "verifiedLive": false
+      "verifiedLive": false,
+      "legacy": false
     }
   ],
   "editorial": {

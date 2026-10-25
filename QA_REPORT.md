@@ -47,3 +47,11 @@ This app is a study planning/portfolio aid. Quiz completion is local only; no re
 - New Chrome CDP checks on **390×844 mobile, 768×900 tablet, 1440×900 desktop** passed. Tested `#guide` navigation, tier switch to Pro, 45-Codex-source product filter, Codex CLI search, document→guide jump without hash collision, lesson popup, English toggle, 3-minute starter return, skill gate, 14 tracks, 61-lesson lab and local private proof. No horizontal overflow or JS exception.
 - After attempting to add the test suite, the fail-closed release gate correctly caught an accidentally embedded personally identifying email *in the test's own assertion*. The literal was replaced with a non-personal generic validation pattern. The sanitized 139-asset public build and 10-group Quality Gate then passed.
 - No real testing with children, manual VoiceOver audit, live crawler of all 204 pages or production data processing is claimed.
+
+## Second editorial QA — 2026-10-25
+
+- Level-first mapping corrected over 60 misleading cross-tier assignments and explicit overrides for Codex SDK / App Server.
+- Curated sources for all 19 guides prevent unrelated Amazon Bedrock or generic Codex manual filler.
+- All 36 supplementary lessons now have distinct practical quiz questions, correct answer positions 0/1/2 and context-specific explanations.
+- Legacy docs are visibly marked; they remain searchable for historical reference, not recommended as current instructions.
+- Dated source index does not assert full article content was freshly crawled or verified.

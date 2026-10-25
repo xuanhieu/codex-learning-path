@@ -16,7 +16,7 @@ const COPY={
   filterEmpty:"Không tìm thấy tài liệu, hãy thử từ khóa khác.",noTrack:"Các bước học được sắp từ dễ đến khó; bạn có thể bắt đầu ở cấp Zero.",
   changed:"Thông tin sản phẩm và giao diện có thể thay đổi; luôn đọc trang chính thức trước khi áp dụng.",next:"Mở bài thực hành",task:"Bài tập dễ làm",
   beginner:"Lần đầu đến đây? Bắt đầu từ bài dễ nhất",start:"Bắt đầu 3 phút",roadmap:"Xem lộ trình riêng",
-  links:"Mục nguồn",guideCount:"Bản hướng dẫn",sourceCount:"URL được phân loại",
+  legacy:"Legacy: kiểm tra phiên bản mới",links:"Mục nguồn",guideCount:"Bản hướng dẫn",sourceCount:"URL được phân loại",
   tierHint:"Cấp độ chỉ giúp chọn bài, không đánh giá năng lực hay cấp chứng chỉ.",
   demos:"Dùng thử công cụ minh họa",docAll:"Danh mục tài liệu chi tiết",notLive:"Trạng thái liên kết chưa kiểm chứng từng trang"},
  en:{title:"Plain-language learning guide — from zero to practice",sub:"19 original explanations, with everyday analogies and real exercises, linked to official resources for further reading.",
@@ -28,7 +28,7 @@ const COPY={
   filterEmpty:"No matching documents; change filters or search terms.",noTrack:"Skills progress from simple to advanced; anyone can begin at Zero.",
   changed:"Product interfaces and availability can change; check the official source before acting.",next:"Open practice lesson",task:"Beginner-friendly challenge",
   beginner:"New here? Start from the very beginning",start:"Three-minute start",roadmap:"Personalized roadmap",
-  links:"Indexed links",guideCount:"Guides",sourceCount:"Classified URLs",tierHint:"These tiers are navigation aids, not assessments or certificates.",
+  legacy:"Legacy: check current replacement",links:"Indexed links",guideCount:"Guides",sourceCount:"Classified URLs",tierHint:"These tiers are navigation aids, not assessments or certificates.",
   demos:"Try a related demo",docAll:"Detailed source catalog",notLive:"Per-page URL status not individually verified"}
 };
 const DEMOS={
@@ -114,7 +114,7 @@ function resources(){
  +filters+'<div class="guide-doc-list">'+(visible.length?visible.map(d=>{
    const guide=map.guides.find(g=>g.id===d.guide),label=guide?guide[locale].title:d.guide;
    return '<article class="guide-document"><div class="guide-document-main"><a href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+esc(d.title)+' ↗</a>'
-   +'<small>'+esc(d.product)+' · '+esc(d.level)+' · '+esc(t("notLive"))+'</small></div>'
+   +'<small>'+esc(d.product)+' · ' +esc(d.level)+(d.legacy?' · '+esc(t("legacy")):'')+' · '+esc(t("notLive"))+'</small></div>'
    +'<button type="button" data-guide-jump="'+esc(d.guide)+'" class="guide-map-link">'+esc(label)+' →</button></article>';
  }).join(""):'<p class="guide-empty">'+esc(t("filterEmpty"))+'</p>')+'</div>'
  +(filtered.length>shown?'<button type="button" data-guide-more class="button secondary guide-more">'+esc(t("show"))+' ('+(filtered.length-shown)+')</button>':"")

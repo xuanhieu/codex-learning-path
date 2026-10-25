@@ -2583,14 +2583,14 @@
           "Đọc lại đầu ra, đánh dấu điều chưa rõ và sửa một lần."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Tôi chưa biết bắt đầu từ đâu” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Tôi chưa biết bắt đầu từ đâu”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Làm tờ hướng dẫn đầu tiên có ví dụ minh họa và bước kiểm tra. Sau đó kiểm tra: Đọc lại đầu ra, đánh dấu điều chưa rõ và sửa một lần."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Làm tờ hướng dẫn đầu tiên có ví dụ minh họa và bước kiểm tra. Giai đoạn kiểm tra: Đọc lại đầu ra, đánh dấu điều chưa rõ và sửa một lần."
         }
       },
       "en": {
@@ -2607,14 +2607,14 @@
           "Review, flag uncertainty and revise one part."
         ],
         "quiz": {
-          "question": "What should you do before marking “I have never used AI” complete?",
+          "question": "What demonstrates real completion of “I have never used AI”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Produce a one-page beginner guide with examples and review steps. Verify: Review, flag uncertainty and revise one part."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Produce a one-page beginner guide with examples and review steps. Review step: Review, flag uncertainty and revise one part."
         }
       }
     },
@@ -2650,14 +2650,14 @@
           "Giải thích vì sao không dùng Codex cho một câu hỏi đơn giản."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Phân biệt ChatGPT, Work và Codex” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Phân biệt ChatGPT, Work và Codex”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Lập bảng chọn công cụ cho ba loại công việc. Sau đó kiểm tra: Giải thích vì sao không dùng Codex cho một câu hỏi đơn giản.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Lập bảng chọn công cụ cho ba loại công việc. Giai đoạn kiểm tra: Giải thích vì sao không dùng Codex cho một câu hỏi đơn giản."
         }
       },
       "en": {
@@ -2674,14 +2674,14 @@
           "Explain why Codex is not required for a simple question."
         ],
         "quiz": {
-          "question": "What should you do before marking “Choose ChatGPT, Work or Codex” complete?",
+          "question": "What demonstrates real completion of “Choose ChatGPT, Work or Codex”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Make a simple tool-choice chart for three common tasks. Verify: Explain why Codex is not required for a simple question.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Make a simple tool-choice chart for three common tasks. Review step: Explain why Codex is not required for a simple question."
         }
       }
     },
@@ -2717,14 +2717,14 @@
           "Yêu cầu AI hỏi lại khi thiếu thông tin và tự kiểm tra đáp án."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Từ ý tưởng thành yêu cầu rõ ràng” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Từ ý tưởng thành yêu cầu rõ ràng”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Tạo yêu cầu 6 dòng với đầu ra và tiêu chí thành công. Sau đó kiểm tra: Yêu cầu AI hỏi lại khi thiếu thông tin và tự kiểm tra đáp án.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Tạo yêu cầu 6 dòng với đầu ra và tiêu chí thành công. Giai đoạn kiểm tra: Yêu cầu AI hỏi lại khi thiếu thông tin và tự kiểm tra đáp án."
         }
       },
       "en": {
@@ -2741,14 +2741,14 @@
           "Ask the assistant to flag gaps and review its answer."
         ],
         "quiz": {
-          "question": "What should you do before marking “Turn an idea into a clear brief” complete?",
+          "question": "What demonstrates real completion of “Turn an idea into a clear brief”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Create a six-line brief with output and acceptance criteria. Verify: Ask the assistant to flag gaps and review its answer.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Create a six-line brief with output and acceptance criteria. Review step: Ask the assistant to flag gaps and review its answer."
         }
       }
     },
@@ -2784,14 +2784,14 @@
           "Kiểm tra đầu ra không còn chi tiết cá nhân."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Giữ bí mật cá nhân khi dùng AI” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Giữ bí mật cá nhân khi dùng AI”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Tạo checklist trước khi chia sẻ màn hình hoặc tệp. Sau đó kiểm tra: Kiểm tra đầu ra không còn chi tiết cá nhân."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Tạo checklist trước khi chia sẻ màn hình hoặc tệp. Giai đoạn kiểm tra: Kiểm tra đầu ra không còn chi tiết cá nhân."
         }
       },
       "en": {
@@ -2808,14 +2808,14 @@
           "Check the output contains no private details."
         ],
         "quiz": {
-          "question": "What should you do before marking “Keep personal details private” complete?",
+          "question": "What demonstrates real completion of “Keep personal details private”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Create a privacy checklist before sharing screenshots or documents. Verify: Check the output contains no private details."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Create a privacy checklist before sharing screenshots or documents. Review step: Check the output contains no private details."
         }
       }
     },
@@ -2851,14 +2851,14 @@
           "Ghi cách tra nguồn chính thức và ngày xác minh."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Đọc câu trả lời mà không tin mù quáng” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Đọc câu trả lời mà không tin mù quáng”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Viết phiếu tự kiểm chứng 3 bước. Sau đó kiểm tra: Ghi cách tra nguồn chính thức và ngày xác minh.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Viết phiếu tự kiểm chứng 3 bước. Giai đoạn kiểm tra: Ghi cách tra nguồn chính thức và ngày xác minh."
         }
       },
       "en": {
@@ -2875,14 +2875,14 @@
           "Record how to check an authoritative source and its date."
         ],
         "quiz": {
-          "question": "What should you do before marking “Verify answers before trusting” complete?",
+          "question": "What demonstrates real completion of “Verify answers before trusting”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Create a three-step self-verification card. Verify: Record how to check an authoritative source and its date.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Create a three-step self-verification card. Review step: Record how to check an authoritative source and its date."
         }
       }
     },
@@ -2918,14 +2918,14 @@
           "Tạo quy tắc nếu bỏ lỡ một ngày thì tiếp tục mà không reset."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Lập kế hoạch học mỗi ngày 10 phút” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Lập kế hoạch học mỗi ngày 10 phút”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Lập lịch 7 ngày gồm 1 bài và 1 sản phẩm nhỏ. Sau đó kiểm tra: Tạo quy tắc nếu bỏ lỡ một ngày thì tiếp tục mà không reset.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Lập lịch 7 ngày gồm 1 bài và 1 sản phẩm nhỏ. Giai đoạn kiểm tra: Tạo quy tắc nếu bỏ lỡ một ngày thì tiếp tục mà không reset."
         }
       },
       "en": {
@@ -2942,14 +2942,14 @@
           "Add a missed-day recovery rule instead of restarting."
         ],
         "quiz": {
-          "question": "What should you do before marking “A ten-minute daily learning habit” complete?",
+          "question": "What demonstrates real completion of “A ten-minute daily learning habit”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Create a seven-day microlearning plan with a daily output. Verify: Add a missed-day recovery rule instead of restarting.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Create a seven-day microlearning plan with a daily output. Review step: Add a missed-day recovery rule instead of restarting."
         }
       }
     },
@@ -2985,14 +2985,14 @@
           "Viết lại hai định nghĩa bằng lời của chính mình."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Diễn giải thuật ngữ công nghệ bằng tiếng dễ hiểu” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Diễn giải thuật ngữ công nghệ bằng tiếng dễ hiểu”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Tạo từ điển cá nhân 10 thuật ngữ bằng ví dụ thường ngày. Sau đó kiểm tra: Viết lại hai định nghĩa bằng lời của chính mình."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Tạo từ điển cá nhân 10 thuật ngữ bằng ví dụ thường ngày. Giai đoạn kiểm tra: Viết lại hai định nghĩa bằng lời của chính mình."
         }
       },
       "en": {
@@ -3009,14 +3009,14 @@
           "Rephrase two definitions in your own words."
         ],
         "quiz": {
-          "question": "What should you do before marking “Decode tech words without jargon” complete?",
+          "question": "What demonstrates real completion of “Decode tech words without jargon”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Build a ten-term glossary with everyday examples. Verify: Rephrase two definitions in your own words."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Build a ten-term glossary with everyday examples. Review step: Rephrase two definitions in your own words."
         }
       }
     },
@@ -3052,14 +3052,14 @@
           "Đánh dấu nơi con người phải kiểm tra trước khi hành động."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Chọn mục tiêu không cần biết code” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Chọn mục tiêu không cần biết code”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Biến một công việc thủ công thành bản demo đơn giản. Sau đó kiểm tra: Đánh dấu nơi con người phải kiểm tra trước khi hành động.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Biến một công việc thủ công thành bản demo đơn giản. Giai đoạn kiểm tra: Đánh dấu nơi con người phải kiểm tra trước khi hành động."
         }
       },
       "en": {
@@ -3076,14 +3076,14 @@
           "Mark every step that requires human review."
         ],
         "quiz": {
-          "question": "What should you do before marking “Choose a no-code outcome” complete?",
+          "question": "What demonstrates real completion of “Choose a no-code outcome”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Turn one manual chore into a paper prototype. Verify: Mark every step that requires human review.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Turn one manual chore into a paper prototype. Review step: Mark every step that requires human review."
         }
       }
     },
@@ -3119,14 +3119,14 @@
           "Sao chép prompt, thử trong công cụ mình có rồi tự đánh giá."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Thử một câu hỏi an toàn trong 3 phút” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Thử một câu hỏi an toàn trong 3 phút”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Có một prompt dùng được, không cần đăng ký API. Sau đó kiểm tra: Sao chép prompt, thử trong công cụ mình có rồi tự đánh giá.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Có một prompt dùng được, không cần đăng ký API. Giai đoạn kiểm tra: Sao chép prompt, thử trong công cụ mình có rồi tự đánh giá."
         }
       },
       "en": {
@@ -3143,14 +3143,14 @@
           "Copy the prompt into a tool you already use and assess the result."
         ],
         "quiz": {
-          "question": "What should you do before marking “Three-minute safe first win” complete?",
+          "question": "What demonstrates real completion of “Three-minute safe first win”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Finish one usable prompt without an API key. Verify: Copy the prompt into a tool you already use and assess the result.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Finish one usable prompt without an API key. Review step: Copy the prompt into a tool you already use and assess the result."
         }
       }
     },
@@ -3186,14 +3186,14 @@
           "Mô phỏng việc từ chối thao tác nếu chưa có phê duyệt."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Biết khi nào phải dừng agent” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Biết khi nào phải dừng agent”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Tạo thẻ đỏ cho gửi dữ liệu, xóa file và thanh toán. Sau đó kiểm tra: Mô phỏng việc từ chối thao tác nếu chưa có phê duyệt."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Tạo thẻ đỏ cho gửi dữ liệu, xóa file và thanh toán. Giai đoạn kiểm tra: Mô phỏng việc từ chối thao tác nếu chưa có phê duyệt."
         }
       },
       "en": {
@@ -3210,14 +3210,14 @@
           "Simulate refusal until a human approves."
         ],
         "quiz": {
-          "question": "What should you do before marking “Know when an agent must stop” complete?",
+          "question": "What demonstrates real completion of “Know when an agent must stop”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Write three stop conditions for sensitive actions. Verify: Simulate refusal until a human approves."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Write three stop conditions for sensitive actions. Review step: Simulate refusal until a human approves."
         }
       }
     },
@@ -3253,14 +3253,14 @@
           "Kiểm xem có việc nào thiếu chủ sở hữu hoặc ngày dự kiến."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Biến cuộc họp giả thành việc cần làm” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Biến cuộc họp giả thành việc cần làm”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Tạo bảng giao việc có người phụ trách và thời hạn giả lập. Sau đó kiểm tra: Kiểm xem có việc nào thiếu chủ sở hữu hoặc ngày dự kiến.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Tạo bảng giao việc có người phụ trách và thời hạn giả lập. Giai đoạn kiểm tra: Kiểm xem có việc nào thiếu chủ sở hữu hoặc ngày dự kiến."
         }
       },
       "en": {
@@ -3277,14 +3277,14 @@
           "Flag missing owners and ambiguous deadlines."
         ],
         "quiz": {
-          "question": "What should you do before marking “Meeting notes into tasks” complete?",
+          "question": "What demonstrates real completion of “Meeting notes into tasks”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Create an action table from fictional meeting notes. Verify: Flag missing owners and ambiguous deadlines.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Create an action table from fictional meeting notes. Review step: Flag missing owners and ambiguous deadlines."
         }
       }
     },
@@ -3320,14 +3320,14 @@
           "Yêu cầu tạo HTML đơn giản và kiểm tra trên trình duyệt, không thu thập dữ liệu thật."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Tạo trang giới thiệu một cửa hàng giả” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Tạo trang giới thiệu một cửa hàng giả”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Có bản wireframe cùng nội dung mẫu cho trang bán hàng. Sau đó kiểm tra: Yêu cầu tạo HTML đơn giản và kiểm tra trên trình duyệt, không thu thập dữ liệu thật.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Có bản wireframe cùng nội dung mẫu cho trang bán hàng. Giai đoạn kiểm tra: Yêu cầu tạo HTML đơn giản và kiểm tra trên trình duyệt, không thu thập dữ liệu thật."
         }
       },
       "en": {
@@ -3344,14 +3344,14 @@
           "Request simple HTML and review locally without collecting real data."
         ],
         "quiz": {
-          "question": "What should you do before marking “Draft a no-code shop landing page” complete?",
+          "question": "What demonstrates real completion of “Draft a no-code shop landing page”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Create a shop landing wireframe and draft copy. Verify: Request simple HTML and review locally without collecting real data.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Create a shop landing wireframe and draft copy. Review step: Request simple HTML and review locally without collecting real data."
         }
       }
     },
@@ -3387,14 +3387,14 @@
           "Tự cộng lại ba dòng để phát hiện lỗi."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Bảng chi tiêu gia đình bằng dữ liệu mẫu” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Bảng chi tiêu gia đình bằng dữ liệu mẫu”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Có bảng thu chi và giải thích các phép tính. Sau đó kiểm tra: Tự cộng lại ba dòng để phát hiện lỗi."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Có bảng thu chi và giải thích các phép tính. Giai đoạn kiểm tra: Tự cộng lại ba dòng để phát hiện lỗi."
         }
       },
       "en": {
@@ -3411,14 +3411,14 @@
           "Manually recalculate three entries to catch mistakes."
         ],
         "quiz": {
-          "question": "What should you do before marking “Make a sample household budget” complete?",
+          "question": "What demonstrates real completion of “Make a sample household budget”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Create a budget table with checks on calculations. Verify: Manually recalculate three entries to catch mistakes."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Create a budget table with checks on calculations. Review step: Manually recalculate three entries to catch mistakes."
         }
       }
     },
@@ -3454,14 +3454,14 @@
           "Thêm ba câu hỏi cùng đáp án và kiểm tra ngôn ngữ phù hợp."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Lên bài học cho học sinh dễ hiểu” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Lên bài học cho học sinh dễ hiểu”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Tạo kế hoạch học 20 phút và câu hỏi tự kiểm tra. Sau đó kiểm tra: Thêm ba câu hỏi cùng đáp án và kiểm tra ngôn ngữ phù hợp.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Tạo kế hoạch học 20 phút và câu hỏi tự kiểm tra. Giai đoạn kiểm tra: Thêm ba câu hỏi cùng đáp án và kiểm tra ngôn ngữ phù hợp."
         }
       },
       "en": {
@@ -3478,14 +3478,14 @@
           "Add three questions with answers, then review age-appropriate wording."
         ],
         "quiz": {
-          "question": "What should you do before marking “Build a student-friendly lesson” complete?",
+          "question": "What demonstrates real completion of “Build a student-friendly lesson”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Write a 20-minute lesson plan with a comprehension check. Verify: Add three questions with answers, then review age-appropriate wording.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Write a 20-minute lesson plan with a comprehension check. Review step: Add three questions with answers, then review age-appropriate wording."
         }
       }
     },
@@ -3521,14 +3521,14 @@
           "Kiểm chính tả, định dạng và xóa thông tin không cần chia sẻ."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Chuẩn bị CV không đưa thông tin nhạy cảm” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Chuẩn bị CV không đưa thông tin nhạy cảm”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Có CV một trang với thành tựu minh họa và checklist. Sau đó kiểm tra: Kiểm chính tả, định dạng và xóa thông tin không cần chia sẻ.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Có CV một trang với thành tựu minh họa và checklist. Giai đoạn kiểm tra: Kiểm chính tả, định dạng và xóa thông tin không cần chia sẻ."
         }
       },
       "en": {
@@ -3545,14 +3545,14 @@
           "Check clarity, formatting and unnecessary personal information."
         ],
         "quiz": {
-          "question": "What should you do before marking “Review a fictional CV” complete?",
+          "question": "What demonstrates real completion of “Review a fictional CV”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Produce a sample resume with an evidence checklist. Verify: Check clarity, formatting and unnecessary personal information.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Produce a sample resume with an evidence checklist. Review step: Check clarity, formatting and unnecessary personal information."
         }
       }
     },
@@ -3589,14 +3589,14 @@
           "Mở trang, kiểm trên điện thoại và lưu điều cần sửa."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Dựng một website không cần hiểu thuật ngữ” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Dựng một website không cần hiểu thuật ngữ”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Chạy thử một trang HTML giả lập và ghi 3 cách kiểm tra. Sau đó kiểm tra: Mở trang, kiểm trên điện thoại và lưu điều cần sửa."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Chạy thử một trang HTML giả lập và ghi 3 cách kiểm tra. Giai đoạn kiểm tra: Mở trang, kiểm trên điện thoại và lưu điều cần sửa."
         }
       },
       "en": {
@@ -3613,14 +3613,14 @@
           "Open, review mobile layout and list improvements."
         ],
         "quiz": {
-          "question": "What should you do before marking “Your first website with Codex assistance” complete?",
+          "question": "What demonstrates real completion of “Your first website with Codex assistance”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Preview a local HTML page with three checks. Verify: Open, review mobile layout and list improvements."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Preview a local HTML page with three checks. Review step: Open, review mobile layout and list improvements."
         }
       }
     },
@@ -3656,14 +3656,14 @@
           "Nêu cách khôi phục và xác minh trạng thái ban đầu."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Hiểu sửa đổi và hoàn tác” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Hiểu sửa đổi và hoàn tác”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Tạo bản ghi trước/sau cho một thay đổi an toàn. Sau đó kiểm tra: Nêu cách khôi phục và xác minh trạng thái ban đầu.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Tạo bản ghi trước/sau cho một thay đổi an toàn. Giai đoạn kiểm tra: Nêu cách khôi phục và xác minh trạng thái ban đầu."
         }
       },
       "en": {
@@ -3680,14 +3680,14 @@
           "Document how to restore and verify the initial version."
         ],
         "quiz": {
-          "question": "What should you do before marking “Understand diffs and undo” complete?",
+          "question": "What demonstrates real completion of “Understand diffs and undo”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Create a before/after change log with rollback steps. Verify: Document how to restore and verify the initial version.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Create a before/after change log with rollback steps. Review step: Document how to restore and verify the initial version."
         }
       }
     },
@@ -3723,14 +3723,14 @@
           "Tự chạy từng trường hợp và ghi pass/fail."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Lập bảng kiểm thử dễ hiểu” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Lập bảng kiểm thử dễ hiểu”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Có năm test case gồm thao tác, mong đợi và kết quả. Sau đó kiểm tra: Tự chạy từng trường hợp và ghi pass/fail.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Có năm test case gồm thao tác, mong đợi và kết quả. Giai đoạn kiểm tra: Tự chạy từng trường hợp và ghi pass/fail."
         }
       },
       "en": {
@@ -3747,14 +3747,14 @@
           "Execute each case and record pass/fail."
         ],
         "quiz": {
-          "question": "What should you do before marking “Create an everyday test checklist” complete?",
+          "question": "What demonstrates real completion of “Create an everyday test checklist”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Produce five test cases with steps and expected results. Verify: Execute each case and record pass/fail.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Produce five test cases with steps and expected results. Review step: Execute each case and record pass/fail."
         }
       }
     },
@@ -3790,14 +3790,14 @@
           "Yêu cầu Codex trình bày diff và test trước khi nhận kết quả."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Giao nhiệm vụ cho Codex bằng câu đơn giản” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Giao nhiệm vụ cho Codex bằng câu đơn giản”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Viết prompt xác định mục tiêu, phạm vi, test và điều cấm. Sau đó kiểm tra: Yêu cầu Codex trình bày diff và test trước khi nhận kết quả."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Viết prompt xác định mục tiêu, phạm vi, test và điều cấm. Giai đoạn kiểm tra: Yêu cầu Codex trình bày diff và test trước khi nhận kết quả."
         }
       },
       "en": {
@@ -3814,14 +3814,14 @@
           "Request a diff and tests before accepting the work."
         ],
         "quiz": {
-          "question": "What should you do before marking “Brief a coding agent safely” complete?",
+          "question": "What demonstrates real completion of “Brief a coding agent safely”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Write a bounded prompt with test and forbidden actions. Verify: Request a diff and tests before accepting the work."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Write a bounded prompt with test and forbidden actions. Review step: Request a diff and tests before accepting the work."
         }
       }
     },
@@ -3857,14 +3857,14 @@
           "Ghi hai vấn đề, kèm bước tái hiện và mong muốn sửa."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Đọc kết quả thử nghiệm bằng mắt thường” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Đọc kết quả thử nghiệm bằng mắt thường”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Có phiếu đánh giá giao diện, chức năng và quyền riêng tư. Sau đó kiểm tra: Ghi hai vấn đề, kèm bước tái hiện và mong muốn sửa.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Có phiếu đánh giá giao diện, chức năng và quyền riêng tư. Giai đoạn kiểm tra: Ghi hai vấn đề, kèm bước tái hiện và mong muốn sửa."
         }
       },
       "en": {
@@ -3881,14 +3881,14 @@
           "Log two issues with reproduction steps and expected fixes."
         ],
         "quiz": {
-          "question": "What should you do before marking “Review a demo as a non-developer” complete?",
+          "question": "What demonstrates real completion of “Review a demo as a non-developer”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Create a simple UI/functionality/privacy acceptance sheet. Verify: Log two issues with reproduction steps and expected fixes.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Create a simple UI/functionality/privacy acceptance sheet. Review step: Log two issues with reproduction steps and expected fixes."
         }
       }
     },
@@ -3925,14 +3925,14 @@
           "Tạo bảng ai duyệt và khi nào phải dừng."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Tự động hóa việc lặp lại có kiểm soát” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Tự động hóa việc lặp lại có kiểm soát”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Vẽ workflow có dữ liệu vào, phê duyệt và kết quả. Sau đó kiểm tra: Tạo bảng ai duyệt và khi nào phải dừng.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Vẽ workflow có dữ liệu vào, phê duyệt và kết quả. Giai đoạn kiểm tra: Tạo bảng ai duyệt và khi nào phải dừng."
         }
       },
       "en": {
@@ -3949,14 +3949,14 @@
           "Create an approval chart and stop rules."
         ],
         "quiz": {
-          "question": "What should you do before marking “Automate repeated work safely” complete?",
+          "question": "What demonstrates real completion of “Automate repeated work safely”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Draw a workflow with input, approval and output. Verify: Create an approval chart and stop rules.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Draw a workflow with input, approval and output. Review step: Create an approval chart and stop rules."
         }
       }
     },
@@ -3992,14 +3992,14 @@
           "Đánh dấu phần chưa xác minh, không đăng dưới dạng sự thật."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Quản lý nguồn dẫn và dữ kiện” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Quản lý nguồn dẫn và dữ kiện”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Tạo bảng nhận định, link nguồn, ngày kiểm và trạng thái. Sau đó kiểm tra: Đánh dấu phần chưa xác minh, không đăng dưới dạng sự thật."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Tạo bảng nhận định, link nguồn, ngày kiểm và trạng thái. Giai đoạn kiểm tra: Đánh dấu phần chưa xác minh, không đăng dưới dạng sự thật."
         }
       },
       "en": {
@@ -4016,14 +4016,14 @@
           "Mark uncertain statements and withhold them from publication."
         ],
         "quiz": {
-          "question": "What should you do before marking “Trace sources and changing claims” complete?",
+          "question": "What demonstrates real completion of “Trace sources and changing claims”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Make a source tracker with links, dates and claim status. Verify: Mark uncertain statements and withhold them from publication."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Make a source tracker with links, dates and claim status. Review step: Mark uncertain statements and withhold them from publication."
         }
       }
     },
@@ -4059,14 +4059,14 @@
           "Viết lại ba nhãn phức tạp và ghi phần cần người kiểm tra thêm."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Tạo checklist tiếp cận cho mọi người” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Tạo checklist tiếp cận cho mọi người”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Xuất checklist dễ đọc, điều khiển bàn phím và ngôn ngữ đơn giản. Sau đó kiểm tra: Viết lại ba nhãn phức tạp và ghi phần cần người kiểm tra thêm.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Xuất checklist dễ đọc, điều khiển bàn phím và ngôn ngữ đơn giản. Giai đoạn kiểm tra: Viết lại ba nhãn phức tạp và ghi phần cần người kiểm tra thêm."
         }
       },
       "en": {
@@ -4083,14 +4083,14 @@
           "Simplify three labels and record issues requiring human review."
         ],
         "quiz": {
-          "question": "What should you do before marking “Make accessible content” complete?",
+          "question": "What demonstrates real completion of “Make accessible content”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Produce an accessibility review checklist. Verify: Simplify three labels and record issues requiring human review.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Produce an accessibility review checklist. Review step: Simplify three labels and record issues requiring human review."
         }
       }
     },
@@ -4127,14 +4127,14 @@
           "Để người mới thử theo, ghi điểm bị vướng và sửa hướng dẫn."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Viết hướng dẫn từng bước cho người khác” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Viết hướng dẫn từng bước cho người khác”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Có giáo án 20 phút, ví dụ và bài kiểm thử. Sau đó kiểm tra: Để người mới thử theo, ghi điểm bị vướng và sửa hướng dẫn.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Có giáo án 20 phút, ví dụ và bài kiểm thử. Giai đoạn kiểm tra: Để người mới thử theo, ghi điểm bị vướng và sửa hướng dẫn."
         }
       },
       "en": {
@@ -4151,14 +4151,14 @@
           "Ask a newcomer to follow it; record friction and revise."
         ],
         "quiz": {
-          "question": "What should you do before marking “Teach a workflow through a mini workshop” complete?",
+          "question": "What demonstrates real completion of “Teach a workflow through a mini workshop”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Produce a short workshop, example and comprehension test. Verify: Ask a newcomer to follow it; record friction and revise.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Produce a short workshop, example and comprehension test. Review step: Ask a newcomer to follow it; record friction and revise."
         }
       }
     },
@@ -4195,14 +4195,14 @@
           "Thiết kế câu hỏi kiểm tra trước khi chia sẻ hoặc cho agent đọc."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Thiết kế kho kiến thức có quyền rõ ràng” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Thiết kế kho kiến thức có quyền rõ ràng”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Có sơ đồ tài liệu theo mức truy cập và người duyệt. Sau đó kiểm tra: Thiết kế câu hỏi kiểm tra trước khi chia sẻ hoặc cho agent đọc."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Có sơ đồ tài liệu theo mức truy cập và người duyệt. Giai đoạn kiểm tra: Thiết kế câu hỏi kiểm tra trước khi chia sẻ hoặc cho agent đọc."
         }
       },
       "en": {
@@ -4219,14 +4219,14 @@
           "Design checks before sharing or agent ingestion."
         ],
         "quiz": {
-          "question": "What should you do before marking “Organize a safe knowledge base” complete?",
+          "question": "What demonstrates real completion of “Organize a safe knowledge base”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Create a knowledge map with access levels and reviewers. Verify: Design checks before sharing or agent ingestion."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Create a knowledge map with access levels and reviewers. Review step: Design checks before sharing or agent ingestion."
         }
       }
     },
@@ -4262,14 +4262,14 @@
           "Nêu sai số, chi phí kiểm tra và trường hợp không hiệu quả."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Đo thời gian tiết kiệm mà không phóng đại” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Đo thời gian tiết kiệm mà không phóng đại”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Có bảng trước/sau và giả định được ghi rõ. Sau đó kiểm tra: Nêu sai số, chi phí kiểm tra và trường hợp không hiệu quả.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Có bảng trước/sau và giả định được ghi rõ. Giai đoạn kiểm tra: Nêu sai số, chi phí kiểm tra và trường hợp không hiệu quả."
         }
       },
       "en": {
@@ -4286,14 +4286,14 @@
           "Record uncertainty, review overhead and cases without gain."
         ],
         "quiz": {
-          "question": "What should you do before marking “Measure time saved responsibly” complete?",
+          "question": "What demonstrates real completion of “Measure time saved responsibly”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Create a before/after effort sheet with assumptions. Verify: Record uncertainty, review overhead and cases without gain.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Create a before/after effort sheet with assumptions. Review step: Record uncertainty, review overhead and cases without gain."
         }
       }
     },
@@ -4330,14 +4330,14 @@
           "Mô phỏng yêu cầu ngoài phạm vi, đảm bảo phải từ chối."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Phác thảo bộ kiểm soát hành động agent” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Phác thảo bộ kiểm soát hành động agent”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Có sơ đồ ba trạng thái: được làm, chờ duyệt, từ chối. Sau đó kiểm tra: Mô phỏng yêu cầu ngoài phạm vi, đảm bảo phải từ chối.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Có sơ đồ ba trạng thái: được làm, chờ duyệt, từ chối. Giai đoạn kiểm tra: Mô phỏng yêu cầu ngoài phạm vi, đảm bảo phải từ chối."
         }
       },
       "en": {
@@ -4354,14 +4354,14 @@
           "Simulate an out-of-scope request and verify denial."
         ],
         "quiz": {
-          "question": "What should you do before marking “Model approval states” complete?",
+          "question": "What demonstrates real completion of “Model approval states”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Create a three-state approval model. Verify: Simulate an out-of-scope request and verify denial.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Create a three-state approval model. Review step: Simulate an out-of-scope request and verify denial."
         }
       }
     },
@@ -4398,14 +4398,14 @@
           "Che thông tin cá nhân trên screenshot rồi ghi test hồi quy."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Khắc phục lỗi bằng báo cáo tái hiện” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Khắc phục lỗi bằng báo cáo tái hiện”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Tạo bug report có screenshot đã che và test sau sửa. Sau đó kiểm tra: Che thông tin cá nhân trên screenshot rồi ghi test hồi quy."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Tạo bug report có screenshot đã che và test sau sửa. Giai đoạn kiểm tra: Che thông tin cá nhân trên screenshot rồi ghi test hồi quy."
         }
       },
       "en": {
@@ -4422,14 +4422,14 @@
           "Sanitize screenshots and add a regression test."
         ],
         "quiz": {
-          "question": "What should you do before marking “Reproduce and report a bug” complete?",
+          "question": "What demonstrates real completion of “Reproduce and report a bug”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Write a reproducible bug report with sanitized screenshots. Verify: Sanitize screenshots and add a regression test."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Write a reproducible bug report with sanitized screenshots. Review step: Sanitize screenshots and add a regression test."
         }
       }
     },
@@ -4466,14 +4466,14 @@
           "Mô phỏng reviewer từ chối và xác nhận không có hành động xảy ra."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Thiết kế quy trình người phê duyệt” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Thiết kế quy trình người phê duyệt”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Có ma trận quyền và hướng dẫn xử lý xung đột. Sau đó kiểm tra: Mô phỏng reviewer từ chối và xác nhận không có hành động xảy ra.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Có ma trận quyền và hướng dẫn xử lý xung đột. Giai đoạn kiểm tra: Mô phỏng reviewer từ chối và xác nhận không có hành động xảy ra."
         }
       },
       "en": {
@@ -4490,14 +4490,14 @@
           "Simulate review rejection and verify no action occurs."
         ],
         "quiz": {
-          "question": "What should you do before marking “Review high-impact actions” complete?",
+          "question": "What demonstrates real completion of “Review high-impact actions”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Build an approval matrix and conflict-handling guide. Verify: Simulate review rejection and verify no action occurs.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Build an approval matrix and conflict-handling guide. Review step: Simulate review rejection and verify no action occurs."
         }
       }
     },
@@ -4534,14 +4534,14 @@
           "Kiểm tra tích hợp bằng một hành trình người dùng cuối."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Phối hợp đội xây sản phẩm AI nhỏ” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Phối hợp đội xây sản phẩm AI nhỏ”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Có brief sản phẩm, kế hoạch test và checklist bàn giao. Sau đó kiểm tra: Kiểm tra tích hợp bằng một hành trình người dùng cuối.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Có brief sản phẩm, kế hoạch test và checklist bàn giao. Giai đoạn kiểm tra: Kiểm tra tích hợp bằng một hành trình người dùng cuối."
         }
       },
       "en": {
@@ -4558,14 +4558,14 @@
           "Run one end-to-end user flow across handoffs."
         ],
         "quiz": {
-          "question": "What should you do before marking “Coordinate a small product team” complete?",
+          "question": "What demonstrates real completion of “Coordinate a small product team”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Create a product brief, test plan and handoff checklist. Verify: Run one end-to-end user flow across handoffs.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Create a product brief, test plan and handoff checklist. Review step: Run one end-to-end user flow across handoffs."
         }
       }
     },
@@ -4602,14 +4602,14 @@
           "Chạy lại test sau sửa rồi ghi bằng chứng."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Đánh giá rủi ro trước khi public” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Đánh giá rủi ro trước khi public”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Có release checklist gồm privacy, nguồn, accessibility, rollback. Sau đó kiểm tra: Chạy lại test sau sửa rồi ghi bằng chứng."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Có release checklist gồm privacy, nguồn, accessibility, rollback. Giai đoạn kiểm tra: Chạy lại test sau sửa rồi ghi bằng chứng."
         }
       },
       "en": {
@@ -4626,14 +4626,14 @@
           "Re-run verification after repairs and record evidence."
         ],
         "quiz": {
-          "question": "What should you do before marking “Check risk before publishing” complete?",
+          "question": "What demonstrates real completion of “Check risk before publishing”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Create a release gate checklist covering privacy, sources, accessibility and rollback. Verify: Re-run verification after repairs and record evidence."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Create a release gate checklist covering privacy, sources, accessibility and rollback. Review step: Re-run verification after repairs and record evidence."
         }
       }
     },
@@ -4670,14 +4670,14 @@
           "Kiểm thử tình huống thiếu quyền hoặc vượt ngân sách."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Quản trị agent nhiều bên liên quan” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Quản trị agent nhiều bên liên quan”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Có hợp đồng input/output, quyền và ngân sách thử nghiệm. Sau đó kiểm tra: Kiểm thử tình huống thiếu quyền hoặc vượt ngân sách.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Có hợp đồng input/output, quyền và ngân sách thử nghiệm. Giai đoạn kiểm tra: Kiểm thử tình huống thiếu quyền hoặc vượt ngân sách."
         }
       },
       "en": {
@@ -4694,14 +4694,14 @@
           "Test missing permission and over-budget requests."
         ],
         "quiz": {
-          "question": "What should you do before marking “Govern cross-team agents” complete?",
+          "question": "What demonstrates real completion of “Govern cross-team agents”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Write input/output contracts, approvals and a request budget. Verify: Test missing permission and over-budget requests.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Write input/output contracts, approvals and a request budget. Review step: Test missing permission and over-budget requests."
         }
       }
     },
@@ -4738,14 +4738,14 @@
           "Mô phỏng rollback, xác minh trạng thái trở về trước."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Đưa một quy trình vào vận hành an toàn” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Đưa một quy trình vào vận hành an toàn”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Có gói bàn giao giả lập với test, giám sát và rollback. Sau đó kiểm tra: Mô phỏng rollback, xác minh trạng thái trở về trước.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Có gói bàn giao giả lập với test, giám sát và rollback. Giai đoạn kiểm tra: Mô phỏng rollback, xác minh trạng thái trở về trước."
         }
       },
       "en": {
@@ -4762,14 +4762,14 @@
           "Simulate rollback and verify restored state."
         ],
         "quiz": {
-          "question": "What should you do before marking “Ship a governed workflow” complete?",
+          "question": "What demonstrates real completion of “Ship a governed workflow”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Produce a synthetic deployment kit with tests, monitoring and rollback. Verify: Simulate rollback and verify restored state.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Produce a synthetic deployment kit with tests, monitoring and rollback. Review step: Simulate rollback and verify restored state."
         }
       }
     },
@@ -4806,14 +4806,14 @@
           "Chạy đánh giá định kỳ rồi sửa ít nhất một quy tắc."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Đánh giá chất lượng agent có số liệu” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Đánh giá chất lượng agent có số liệu”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra.",
+            "Có đầu ra: Có bộ câu hỏi eval và báo cáo false positive/negative. Sau đó kiểm tra: Chạy đánh giá định kỳ rồi sửa ít nhất một quy tắc."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 2,
+          "explanation": "Bài này cần tự tạo: Có bộ câu hỏi eval và báo cáo false positive/negative. Giai đoạn kiểm tra: Chạy đánh giá định kỳ rồi sửa ít nhất một quy tắc."
         }
       },
       "en": {
@@ -4830,14 +4830,14 @@
           "Run the eval and improve one measured rule."
         ],
         "quiz": {
-          "question": "What should you do before marking “Measure agent quality with evidence” complete?",
+          "question": "What demonstrates real completion of “Measure agent quality with evidence”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification.",
+            "Deliverable: Write a small evaluation set and error review. Verify: Run the eval and improve one measured rule."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 2,
+          "explanation": "This lesson requires: Write a small evaluation set and error review. Review step: Run the eval and improve one measured rule."
         }
       }
     },
@@ -4874,14 +4874,14 @@
           "Đo người mới tự hoàn thành bài đầu và cải thiện hướng dẫn."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Xây chương trình đào tạo ai cũng dùng được” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Xây chương trình đào tạo ai cũng dùng được”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Có đầu ra: Có lộ trình theo trình độ, role và kiểm tra thực hành. Sau đó kiểm tra: Đo người mới tự hoàn thành bài đầu và cải thiện hướng dẫn.",
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
           "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "explanation": "Bài này cần tự tạo: Có lộ trình theo trình độ, role và kiểm tra thực hành. Giai đoạn kiểm tra: Đo người mới tự hoàn thành bài đầu và cải thiện hướng dẫn."
         }
       },
       "en": {
@@ -4898,14 +4898,14 @@
           "Measure simulated first-task completion and refine the guidance."
         ],
         "quiz": {
-          "question": "What should you do before marking “Design an inclusive AI learning program” complete?",
+          "question": "What demonstrates real completion of “Design an inclusive AI learning program”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Deliverable: Build a level- and audience-aware curriculum with real exercises. Verify: Measure simulated first-task completion and refine the guidance.",
+            "Read the draft and mark done without trying the steps.",
+            "Use unauthorized private data and skip verification."
           ],
           "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "explanation": "This lesson requires: Build a level- and audience-aware curriculum with real exercises. Review step: Measure simulated first-task completion and refine the guidance."
         }
       }
     },
@@ -4942,14 +4942,14 @@
           "Liệt kê giới hạn, quyền riêng tư và phần chưa được kiểm chứng."
         ],
         "quiz": {
-          "question": "Điều nào cần làm trước khi coi bài “Chứng minh sản phẩm đáng tin trước khi giới thiệu” là hoàn thành?",
+          "question": "Để hoàn thành thực chất bài “Chứng minh sản phẩm đáng tin trước khi giới thiệu”, bạn cần minh chứng điều nào?",
           "options": [
-            "Tự thực hành với dữ liệu mẫu và kiểm tra kết quả",
-            "Tin ngay vì AI trả lời tự nhiên",
-            "Sử dụng dữ liệu riêng tư của người khác để thử"
+            "Chỉ đọc bản nháp và tuyên bố hoàn thành dù chưa thử thao tác.",
+            "Có đầu ra: Có bộ chứng cứ source, test, demo và hạn chế đã công bố. Sau đó kiểm tra: Liệt kê giới hạn, quyền riêng tư và phần chưa được kiểm chứng.",
+            "Nhập dữ liệu riêng tư chưa có quyền và bỏ qua bước kiểm tra."
           ],
-          "answer": 0,
-          "explanation": "Bài học chỉ hoàn tất khi có bài thực hành và tự đánh giá, không dùng dữ liệu nhạy cảm."
+          "answer": 1,
+          "explanation": "Bài này cần tự tạo: Có bộ chứng cứ source, test, demo và hạn chế đã công bố. Giai đoạn kiểm tra: Liệt kê giới hạn, quyền riêng tư và phần chưa được kiểm chứng."
         }
       },
       "en": {
@@ -4966,14 +4966,14 @@
           "Publish limitations, privacy caveats and unverified aspects."
         ],
         "quiz": {
-          "question": "What should you do before marking “Assemble trustworthy project evidence” complete?",
+          "question": "What demonstrates real completion of “Assemble trustworthy project evidence”?",
           "options": [
-            "Practice with synthetic input and review results",
-            "Assume fluent AI output is correct",
-            "Use another person's private data as test input"
+            "Read the draft and mark done without trying the steps.",
+            "Deliverable: Assemble source, tests, demo and limitations in an evidence pack. Verify: Publish limitations, privacy caveats and unverified aspects.",
+            "Use unauthorized private data and skip verification."
           ],
-          "answer": 0,
-          "explanation": "Completion requires a real exercise and review, not trust in fluent output or unsafe personal data."
+          "answer": 1,
+          "explanation": "This lesson requires: Assemble source, tests, demo and limitations in an evidence pack. Review step: Publish limitations, privacy caveats and unverified aspects."
         }
       }
     }

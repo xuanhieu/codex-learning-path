@@ -265,6 +265,30 @@ RULES=[
 ("mini-site",r"site|frontend|website|web.app"),
 ("first-task",r"introduction|quickstart|start|basic|foundation|tutorial|training|learn|use.case")
 ]
+# Curated title anchors prevent irrelevant default source citations.
+# Only match titles already present in the dated official metadata index.
+REF_ANCHORS={
+ "first-task":["Quickstart","Use ChatGPT","OpenAI training"],
+ "tool-choice":["Get started with ChatGPT Work","Codex manual (Markdown)","Quickstart"],
+ "good-request":["Prompting","Custom Prompts","Best practices"],
+ "privacy-basics":["Permissions","Models and Trusted Access","Agent approvals & security"],
+ "checking-answers":["Best practices","Web search","Quickstart"],
+ "codex-begin":["Codex CLI","Codex IDE extension","Learn Codex","Codex manual (Markdown)"],
+ "git-and-diffs":["Worktrees","Review GitHub pull requests with Codex","Code review"],
+ "review-tests":["Code review","Review GitHub pull requests with Codex","Best practices"],
+ "mini-site":["Create a site","Sites","Publish and share"],
+ "instructions":["Custom instructions with AGENTS.md","Rules","Config basics"],
+ "reusable-skills":["Build skills","Skills & Plugins","Build plugins"],
+ "parallel-work":["Worktrees","Subagents","Codex environments"],
+ "safe-connections":["Model Context Protocol","Documentation MCP","Environment variables"],
+ "approval":["Agent approvals & security","Sandbox","Auto-review"],
+ "multi-agents":["Subagents","Worktrees","Agent approvals & security"],
+ "release-review":["Codex GitHub Action","Codex Security CI/CD overview","Codex security cookbook"],
+ "agent-platform":["Codex SDK","Codex App Server","Codex Security TypeScript SDK"],
+ "evals":["Usage Insights for ChatGPT Work in Codex","Codex security cookbook","Analytics API"],
+ "team-governance":["Governance","Roles and workspace permissions","ChatGPT Work Overview"]
+}
+
 GUIDE_BY_ID={g[0]:g for g in GUIDES}
 # Never map an advanced security/enterprise source to a Zero-level tutorial.
 # Source's level is the primary gate; topic keywords rank topics *within* that tier.
@@ -324,7 +348,8 @@ def build():
         records.append(dict(id=source["id"],title=source["title"],url=url,product=source["product"],
           category=source.get("categories",[])[:3],level=source["level"],learningLevel=educational_level(source),
           guide=guide,assignmentBasis="topic_within_learning_level",
-          indexSnapshot="2026-10-24",verifiedLive=False))
+          indexSnapshot="2026-10-24",verifiedLive=False,
+          legacy=bool(source.get("legacy")) or bool(re.search(r"\blegacy\b|removal|deprecated",source["title"],re.I))))
     assert all(GUIDE_BY_ID[d["guide"]][1]==d["learningLevel"] for d in records)
     grouped={gid:[d for d in records if d["guide"]==gid] for gid in GUIDE_BY_ID}
     modules=[]
@@ -332,9 +357,22 @@ def build():
          exampleVI,exampleEN,mistakeVI,mistakeEN,challengeVI,challengeEN) in GUIDES:
         lessonIdsList=linked.split(",")
         assert set(lessonIdsList).issubset(lessonIds)
-        reference=sorted(grouped[gid],key=lambda d:(d["product"]!="Codex",len(d["title"])))[:4]
+        titles=REF_ANCHORS.get(gid,[])
+        reference=[]
+        for title in titles:
+            match=next((d for d in records if d["title"].casefold()==title.casefold()),None)
+            if match and match["id"] not in [r["id"] for r in reference]:
+                reference.append(match)
+        # A source selected by a low-confidence keyword must not displace a
+        # manually curated and demonstrably relevant teaching reference.
         if not reference:
-            reference=[d for d in records if d["product"]=="Codex"][:2]
+            for record in sorted(grouped[gid],key=lambda d:(d["product"]!="Codex",len(d["title"]))):
+                if len(reference)>=4:break
+                if record["id"] not in [r["id"] for r in reference]:
+                    reference.append(record)
+        # NEVER backfill a guide with unrelated arbitrary first Codex documents.
+        assert reference, "No on-topic reference found for "+gid
+        reference=reference[:4]
         modules.append({"id":gid,"tier":tier,"topic":topic,"lessons":lessonIdsList,
           "vi":{"title":titleVI,"simple":meaningVI,"analogy":analogyVI,"example":exampleVI,
                 "pitfall":mistakeVI,"challenge":challengeVI},
