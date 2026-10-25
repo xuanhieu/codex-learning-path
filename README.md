@@ -111,3 +111,11 @@ The dated Academy index was checked through a bounded, robots-aware real HTTP sc
 - The 19 guide references now exclude the six detected inaccessible URLs; original 204-item historical index remains inspectable with red warnings and a filtered 404 view.
 - HTTP 200 is an access check only. No automated process has fact-checked each official article body, the availability of plan-specific product features, or the correctness of every click path in the current app.
 - Full editorial reading: `HANDBOOK_VI.md` (Vietnamese) and `HANDBOOK_EN.md` (English), authored educational prose linked to official sources.
+
+
+## Quiet Builder visual release — 2026-10-25
+
+Visual direction is Codex-inspired **without imitating or claiming official OpenAI sponsorship**. The local file DESIGN.md records the reusable design contract. Dark graphite and light ivory modes, neutral surfaces, readable hierarchy, reduced visual noise, source-linked practice and keyboard focus live in codex-theme.css, loaded last.
+- Browser smoke 390/768/1440px: all main learning routes, VI/EN, local persistence, light/dark switching, quiz, evidence forms, source links and cross-mapping pass without horizontal overflow.
+- Live deploy through Cloudflare Pages uses sanitized allowlist build; the private applicant dashboard remains segregated.
+- Accessibility and visual polish are independently checked, not certified as OpenAI UI parity.

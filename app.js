@@ -12,7 +12,7 @@ const tl={
   buildMyPath:"Tạo lộ trình của tôi",academyLink:"Mở kho bài học ↗",
   careerLabel:"Tôi muốn làm gì?",levelLabel:"Trình độ hiện tại",hoursLabel:"Giờ học / tuần",
   goalLabel:"Mục tiêu hoàn thành",generate:"Thiết kế roadmap",
-  hero:"Your path to <em>AI mastery.</em>",heroDesc:"Từ mới bắt đầu đến builder chuyên nghiệp. Chọn hướng nghề, thời gian và mục tiêu để học có đầu ra kiểm chứng.",
+  hero:"Start with a task.<em> Grow with every build.</em>",heroDesc:"Một bài học hữu ích, một việc làm được, một bước tiến rõ ràng. Chọn lộ trình từ Zero đến Pro — không cần biết code để bắt đầu.",
   profileTitle:"Xác định điểm xuất phát",profileDesc:"Điều chỉnh thông tin để lên roadmap. Không cần tài khoản.",
   weeks:"tuần",hours:"giờ",valid:"Lựa chọn hợp lệ — có thể tạo kế hoạch.",
   progress:"Tiến độ học",estimated:"Thời lượng dự kiến",lessonCount:"Bài học có nguồn",target:"Mục tiêu học",notGuaranteed:"Dự báo thời gian mang tính ước tính, không cam kết việc làm.",
@@ -48,7 +48,7 @@ const tl={
   buildMyPath:"Build my path",academyLink:"Open Academy ↗",
   careerLabel:"What do you want to do?",levelLabel:"Current level",hoursLabel:"Hours per week",
   goalLabel:"Target duration",generate:"Generate roadmap",
-  hero:"Your path to <em>AI mastery.</em>",heroDesc:"From first task to confident builder. Choose a career direction, study time and demonstrable outcomes.",
+  hero:"Start with a task.<em> Grow with every build.</em>",heroDesc:"One useful lesson, one small finished task, one real step forward. Choose a path from Zero to Pro — no coding experience needed to begin.",
   profileTitle:"Choose your starting point",profileDesc:"Adjust your inputs to build a realistic plan. No account required.",
   weeks:"weeks",hours:"hours",valid:"Valid selection — ready to generate your roadmap.",
   progress:"Learning progress",estimated:"Estimated duration",lessonCount:"Traceable lessons",target:"Learning target",notGuaranteed:"Study estimates only, no job guarantee.",
@@ -362,7 +362,7 @@ async function importBackup(file){
  syncSelectors();save();
  render();note(t("imported"));
 }
-function toggleTheme(){theme=theme==="dark"?"light":"dark";document.documentElement.dataset.theme=theme;prefSave();note(t("saved"))}
+function toggleTheme(){theme=theme==="dark"?"light":"dark";document.documentElement.dataset.theme=theme;$("theme-toggle").textContent=theme==="dark"?"☼":"◐";$("theme-toggle").setAttribute("aria-label",theme==="dark"?"Switch to light theme":"Switch to dark theme");prefSave();note(t("saved"))}
 function prefSave(){try{localStorage.setItem("codex-path-ui-v1",JSON.stringify({theme,locale}))}catch{}}
 function bind(){
  document.addEventListener("click",e=>{
