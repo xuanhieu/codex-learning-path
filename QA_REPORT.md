@@ -27,3 +27,23 @@ This app is a study planning/portfolio aid. Quiz completion is local only; no re
 - Completion gate tested with the actual 3 step checkboxes, correct quiz answer and explicit confirmation; browser-local completion persisted.
 - The copyable practice prompt includes synthetic-data and manual-review constraints. Exercises do not call external agents without learner action.
 - Browser state self-attests results; there is no automatic remote verification of Codex execution, code correctness or job readiness.
+
+
+## Every Human verified extension — 2026-10-24
+
+- Source: 25 original Academy lessons + 36 independent additional original VI/EN lessons = **61**; 6 retained technical careers + 8 nontechnical routes = **14**, with 12 visible starter personas.
+- `python3 builders_curriculum.py` reconstructs the dataset deterministically (SHA-256 recorded in terminal).
+- `node --test tests/test_engine.cjs tests/test_starter.cjs`: **63/63 pass** (private proof readiness, old public proof gate, backward-compatible progress, secret-aware starter, 4-question placement, 12 persona mapping).
+- Chrome CDP at **390×844, 768×900, 1440×900**: **25 start-to-finish interactions per viewport, 75 observed passes**, no horizontal overflow, no uncaught JS error. Tests include zero-code first prompt, synthetic examples, first-win review checkboxes, four-question placement, personalized roadmap, private proof without GitHub, retained 14/61 UI, old technical public proof URL feedback, locale and theme.
+- New starter app does not call external model providers or API keys. Only a limited list of persona ID, task ID, boolean review flags and tier is stored in browser storage; typed prompt is not stored.
+- No claim is made of manual WCAG/VoiceOver conformance or a verified user study with actual young learners. These require independent testing.
+- Public HTTP/Cloudflare SHA and GitHub source publishing are verified separately and must not be assumed from local CDP tests.
+
+## 25/10 — Indexed docs and human-readable guides
+
+- The official index snapshot has **204 URLs** (45 Codex, 158 ChatGPT, 1 Platform) and remains metadata-only: no copied full official articles; no individual link-live certification.
+- The editorial concept layer contains **19** bilingual original simple summaries, comparisons, examples, common mistakes and short exercises linked to **61** actual lessons.
+- **85/85** Node unit tests passed across `test_engine.cjs`, `test_starter.cjs`, `test_guides.cjs`; source integrity checks ensure all 204 indexed IDs and URLs match the Academy catalog.
+- New Chrome CDP checks on **390×844 mobile, 768×900 tablet, 1440×900 desktop** passed. Tested `#guide` navigation, tier switch to Pro, 45-Codex-source product filter, Codex CLI search, document→guide jump without hash collision, lesson popup, English toggle, 3-minute starter return, skill gate, 14 tracks, 61-lesson lab and local private proof. No horizontal overflow or JS exception.
+- After attempting to add the test suite, the fail-closed release gate correctly caught an accidentally embedded personally identifying email *in the test's own assertion*. The literal was replaced with a non-personal generic validation pattern. The sanitized 139-asset public build and 10-group Quality Gate then passed.
+- No real testing with children, manual VoiceOver audit, live crawler of all 204 pages or production data processing is claimed.
