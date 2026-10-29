@@ -313,3 +313,5 @@ button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:inherit}
 .practice-prompt summary{font-size:12px;font-weight:800;cursor:pointer}
 .practice-prompt p{font-size:11px;color:var(--muted)}
 .practice-prompt pre{white-space:pre-wrap;overflow-wrap:anywhere;font:11px/1.6 ui-monospace,monospace;padding:10px;border:1px solid var(--line);border-radius:8px;max-height:250px;overflow:auto}
+/* Collapsed mobile menu leaves the tab order until opened. */
+@media(max-width:650px){.sidebar:not(.open){visibility:hidden;transition:transform .22s var(--spring),visibility 0s .22s}.sidebar.open{visibility:visible}}
